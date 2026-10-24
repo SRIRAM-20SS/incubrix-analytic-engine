@@ -1,0 +1,84 @@
+{
+  "question_id": "Q100",
+  "question": "What is the ultimate AI workflow for solo content creators in 2026?",
+  "intent": "Informational",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com/search?q=ultimate+ai+workflow+solo+content+creators+2026",
+  "market": "US",
+  "topic": "Tool Comparisons",
+  "priority": "High",
+  "notes": "HubSpot cornerstone guide cited; directly maps to IncuBrix Discover-Create-Repurpose-Publish-Learn framework.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://hubspot.com/marketing/ai-creator-workflow-guide",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Notion AI",
+        "Descript",
+        "OpusClip",
+        "Buffer",
+        "ChatGPT"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'What is the ultimate AI workflow for solo content creators in 2026?', citing top industry tools including Notion AI, Descript, OpusClip, Buffer, ChatGPT. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Notion AI",
+        "Descript",
+        "OpusClip"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Notion AI, Descript, OpusClip, Buffer, ChatGPT. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Notion AI",
+        "Descript",
+        "OpusClip",
+        "Buffer",
+        "ChatGPT"
+      ],
+      "cited_urls": [
+        "https://hubspot.com/marketing/ai-creator-workflow-guide"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://hubspot.com/marketing/ai-creator-workflow-guide. Recommended Notion AI, Descript, OpusClip, Buffer, ChatGPT."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Notion AI",
+        "Descript",
+        "OpusClip",
+        "Buffer"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Notion AI, Descript, OpusClip, Buffer, ChatGPT."
+    }
+  },
+  "sha256_hash": "4cd2eb12f20305f143ae1a30e5b93c854e404cb11f9cf20d8072b306c812d50c"
+}

@@ -1,0 +1,79 @@
+{
+  "question_id": "Q043",
+  "question": "How to convert English audio to Tamil subtitles accurately AI tool",
+  "intent": "Informational",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.co.in/search?q=convert+english+audio+to+tamil+subtitles+ai",
+  "market": "IN",
+  "topic": "Auto Captions & Subtitles",
+  "priority": "Medium",
+  "notes": "Regional language growth in South India (Tamil Nadu/Bengaluru).",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: IN",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://www.dubverse.ai/blog/tamil-subtitles-ai/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Dubverse",
+        "Animaker",
+        "Veed.io"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to convert English audio to Tamil subtitles accurately AI tool', citing top industry tools including Dubverse, Animaker, Veed.io. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Dubverse",
+        "Animaker",
+        "Veed.io"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Dubverse, Animaker, Veed.io. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Dubverse",
+        "Animaker",
+        "Veed.io"
+      ],
+      "cited_urls": [
+        "https://www.dubverse.ai/blog/tamil-subtitles-ai/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.dubverse.ai/blog/tamil-subtitles-ai/. Recommended Dubverse, Animaker, Veed.io."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Dubverse",
+        "Animaker",
+        "Veed.io"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Dubverse, Animaker, Veed.io."
+    }
+  },
+  "sha256_hash": "dae211b99d0ef1ebfd3f9fb7011948ef77d30858a984c907181bd9271718d664"
+}

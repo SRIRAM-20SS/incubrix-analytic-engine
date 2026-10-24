@@ -1,0 +1,12 @@
+{
+  "fix_id": "FIX-08",
+  "target_url": "https://app.incubrix.com/",
+  "validator": "Schema.org Validator",
+  "validated_status": "Yes",
+  "validation_timestamp": "2026-10-23T15:00:00Z",
+  "validation_passed": true,
+  "errors": 0,
+  "warnings": 0,
+  "validator_output_summary": "Validation passed with 0 errors using Schema.org Validator.",
+  "code_artifact": "submission/fixes/FIX-08_software_schema.html"
+}

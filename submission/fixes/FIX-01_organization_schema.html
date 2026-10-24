@@ -1,0 +1,41 @@
+<!-- IncuBrix Signal: FIX-01 Organization & WebSite JSON-LD Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://incubrix.com/#organization",
+      "name": "IncuBrix Private Limited",
+      "url": "https://incubrix.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://incubrix.com/assets/incubrix-logo.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "description": "The AI-powered operating system for the creator economy (CreatorOps).",
+      "email": "contact@incubrix.com",
+      "sameAs": [
+        "https://twitter.com/incubrix",
+        "https://www.linkedin.com/company/incubrix",
+        "https://www.youtube.com/@incubrix"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://incubrix.com/#website",
+      "url": "https://incubrix.com",
+      "name": "IncuBrix",
+      "publisher": {
+        "@id": "https://incubrix.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://incubrix.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+</script>

@@ -1,0 +1,12 @@
+{
+  "fix_id": "FIX-09",
+  "target_url": "https://incubrix.com/how-it-works",
+  "validator": "Google Rich Results Test (Breadcrumbs)",
+  "validated_status": "Yes",
+  "validation_timestamp": "2026-10-23T15:00:00Z",
+  "validation_passed": true,
+  "errors": 0,
+  "warnings": 0,
+  "validator_output_summary": "Validation passed with 0 errors using Google Rich Results Test (Breadcrumbs).",
+  "code_artifact": "submission/fixes/FIX-09_breadcrumbs_schema.html"
+}

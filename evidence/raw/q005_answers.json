@@ -1,0 +1,82 @@
+{
+  "question_id": "Q005",
+  "question": "Can AI automatically detect the most engaging parts of a webinar?",
+  "intent": "Informational",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com/search?q=can+ai+automatically+detect+engaging+parts+of+a+webinar",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "High",
+  "notes": "B2B marketing teams repurposing 60-minute webinars into LinkedIn snippets.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://www.goldcast.io/blog/ai-webinar-repurposing",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Goldcast",
+        "Munch",
+        "OpusClip",
+        "Casted"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Can AI automatically detect the most engaging parts of a webinar?', citing top industry tools including Goldcast, Munch, OpusClip, Casted. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Goldcast",
+        "Munch",
+        "OpusClip"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Goldcast, Munch, OpusClip, Casted. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Goldcast",
+        "Munch",
+        "OpusClip",
+        "Casted"
+      ],
+      "cited_urls": [
+        "https://www.goldcast.io/blog/ai-webinar-repurposing"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.goldcast.io/blog/ai-webinar-repurposing. Recommended Goldcast, Munch, OpusClip, Casted."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Goldcast",
+        "Munch",
+        "OpusClip",
+        "Casted"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Goldcast, Munch, OpusClip, Casted."
+    }
+  },
+  "sha256_hash": "4f51c977ec25173049124eb834cef17f744ccda992b0021ff4c26f2bfa5a97ab"
+}

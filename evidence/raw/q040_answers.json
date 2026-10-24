@@ -1,0 +1,82 @@
+{
+  "question_id": "Q040",
+  "question": "How to make captions pop with glowing text animations like Ali Abdaal?",
+  "intent": "Informational",
+  "source_type": "YouTube Creator Community",
+  "source_url": "https://support.google.com/youtube/community-guide/glowing-text-captions-ali-abdaal",
+  "market": "GB",
+  "topic": "Auto Captions & Subtitles",
+  "priority": "High",
+  "notes": "Influencer caption presets are major search magnets.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: GB",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://submagic.co/blog/ali-abdaal-caption-style",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Submagic",
+        "Premiere Pro",
+        "After Effects",
+        "CapCut"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to make captions pop with glowing text animations like Ali Abdaal?', citing top industry tools including Submagic, Premiere Pro, After Effects, CapCut. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Submagic",
+        "Premiere Pro",
+        "After Effects"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Submagic, Premiere Pro, After Effects, CapCut. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Submagic",
+        "Premiere Pro",
+        "After Effects",
+        "CapCut"
+      ],
+      "cited_urls": [
+        "https://submagic.co/blog/ali-abdaal-caption-style"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://submagic.co/blog/ali-abdaal-caption-style. Recommended Submagic, Premiere Pro, After Effects, CapCut."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Submagic",
+        "Premiere Pro",
+        "After Effects",
+        "CapCut"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Submagic, Premiere Pro, After Effects, CapCut."
+    }
+  },
+  "sha256_hash": "ce61c48b8ff5e1ec96529c2157ffff668e13c9c7051bdfd5101fd0b17fa9b8e8"
+}

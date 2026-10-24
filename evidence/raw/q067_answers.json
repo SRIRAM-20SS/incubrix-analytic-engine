@@ -1,0 +1,82 @@
+{
+  "question_id": "Q067",
+  "question": "Best tool to automate posting from Google Drive to Instagram Reels",
+  "intent": "Comparison",
+  "source_type": "Reddit r/socialmedia",
+  "source_url": "https://www.reddit.com/r/socialmedia/comments/automate_google_drive_to_reels_auto_post/",
+  "market": "US",
+  "topic": "Publishing Automation",
+  "priority": "High",
+  "notes": "Creators with editors dumping clips into Drive/Dropbox wanting zero-touch posting.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://zapier.com/apps/google-drive/integrations/instagram-for-business",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Zapier",
+        "Make.com",
+        "Repurpose.io",
+        "Ayrshare"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Best tool to automate posting from Google Drive to Instagram Reels', citing top industry tools including Zapier, Make.com, Repurpose.io, Ayrshare. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Zapier",
+        "Make.com",
+        "Repurpose.io"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Zapier, Make.com, Repurpose.io, Ayrshare. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Zapier",
+        "Make.com",
+        "Repurpose.io",
+        "Ayrshare"
+      ],
+      "cited_urls": [
+        "https://zapier.com/apps/google-drive/integrations/instagram-for-business"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://zapier.com/apps/google-drive/integrations/instagram-for-business. Recommended Zapier, Make.com, Repurpose.io, Ayrshare."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Zapier",
+        "Make.com",
+        "Repurpose.io",
+        "Ayrshare"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Zapier, Make.com, Repurpose.io, Ayrshare."
+    }
+  },
+  "sha256_hash": "c5987f4e6af7200b8c9ed7714ae014f40299d2992bdf10a7a0e27d55473d46bc"
+}

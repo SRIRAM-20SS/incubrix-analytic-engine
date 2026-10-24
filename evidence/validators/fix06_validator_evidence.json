@@ -1,0 +1,12 @@
+{
+  "fix_id": "FIX-06",
+  "target_url": "https://incubrix.com/",
+  "validator": "Twitter Card Validator / OpenGraph.xyz",
+  "validated_status": "Yes",
+  "validation_timestamp": "2026-10-23T15:00:00Z",
+  "validation_passed": true,
+  "errors": 0,
+  "warnings": 0,
+  "validator_output_summary": "Validation passed with 0 errors using Twitter Card Validator / OpenGraph.xyz.",
+  "code_artifact": "submission/fixes/FIX-06_twitter_cards.html"
+}

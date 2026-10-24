@@ -1,0 +1,82 @@
+{
+  "question_id": "Q047",
+  "question": "Best tool for auto captioning LinkedIn video posts with 1:1 square ratio",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.co.uk/search?q=best+tool+auto+captioning+linkedin+video+square",
+  "market": "GB",
+  "topic": "Auto Captions & Subtitles",
+  "priority": "Medium",
+  "notes": "85% of LinkedIn videos are watched with sound muted.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: GB",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://www.socialinsider.io/blog/linkedin-video-subtitles/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Zubtitle",
+        "Veed.io",
+        "Kapwing",
+        "Descript"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Best tool for auto captioning LinkedIn video posts with 1:1 square ratio', citing top industry tools including Zubtitle, Veed.io, Kapwing, Descript. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Zubtitle",
+        "Veed.io",
+        "Kapwing"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Zubtitle, Veed.io, Kapwing, Descript. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Zubtitle",
+        "Veed.io",
+        "Kapwing",
+        "Descript"
+      ],
+      "cited_urls": [
+        "https://www.socialinsider.io/blog/linkedin-video-subtitles/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.socialinsider.io/blog/linkedin-video-subtitles/. Recommended Zubtitle, Veed.io, Kapwing, Descript."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Zubtitle",
+        "Veed.io",
+        "Kapwing",
+        "Descript"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Zubtitle, Veed.io, Kapwing, Descript."
+    }
+  },
+  "sha256_hash": "900fd93aa48281880f7078da3fac4e87f3c64c10d1bef0f91b7ab97833e4b8bf"
+}

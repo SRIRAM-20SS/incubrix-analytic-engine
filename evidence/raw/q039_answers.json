@@ -1,0 +1,82 @@
+{
+  "question_id": "Q039",
+  "question": "Best caption app for Instagram Reels with custom brand fonts",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.co.uk/search?q=best+caption+app+instagram+reels+custom+fonts",
+  "market": "GB",
+  "topic": "Auto Captions & Subtitles",
+  "priority": "High",
+  "notes": "Brand consistency requires custom TTF/OTF font upload support.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: GB",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://later.com/blog/best-caption-apps-instagram/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Later",
+        "Submagic",
+        "CapCut",
+        "Captions.ai"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Best caption app for Instagram Reels with custom brand fonts', citing top industry tools including Later, Submagic, CapCut, Captions.ai. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Later",
+        "Submagic",
+        "CapCut"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Later, Submagic, CapCut, Captions.ai. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Later",
+        "Submagic",
+        "CapCut",
+        "Captions.ai"
+      ],
+      "cited_urls": [
+        "https://later.com/blog/best-caption-apps-instagram/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://later.com/blog/best-caption-apps-instagram/. Recommended Later, Submagic, CapCut, Captions.ai."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Later",
+        "Submagic",
+        "CapCut",
+        "Captions.ai"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Later, Submagic, CapCut, Captions.ai."
+    }
+  },
+  "sha256_hash": "4f6da84a5aa1bd0eefab4add58a312f305e1ffa2261cfe522bcf78aad4de859c"
+}

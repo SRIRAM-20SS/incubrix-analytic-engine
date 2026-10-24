@@ -1,0 +1,82 @@
+{
+  "question_id": "Q037",
+  "question": "How to automatically remove filler words um and ah from captions?",
+  "intent": "Informational",
+  "source_type": "People Also Ask",
+  "source_url": "https://www.google.com/search?q=remove+filler+words+um+ah+from+captions",
+  "market": "US",
+  "topic": "Auto Captions & Subtitles",
+  "priority": "High",
+  "notes": "Filler word removal cleans up both audio and on-screen captions.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Answer box",
+    "quoted_source_url": "https://www.descript.com/filler-word-removal",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "Riverside",
+        "OpusClip",
+        "Cleanvoice"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to automatically remove filler words um and ah from captions?', citing top industry tools including Descript, Riverside, OpusClip, Cleanvoice. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "Riverside",
+        "OpusClip"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Descript, Riverside, OpusClip, Cleanvoice. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "Riverside",
+        "OpusClip",
+        "Cleanvoice"
+      ],
+      "cited_urls": [
+        "https://www.descript.com/filler-word-removal"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.descript.com/filler-word-removal. Recommended Descript, Riverside, OpusClip, Cleanvoice."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "Riverside",
+        "OpusClip",
+        "Cleanvoice"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Descript, Riverside, OpusClip, Cleanvoice."
+    }
+  },
+  "sha256_hash": "c7e1294ddce3426d579534248904afed029be66233c8149fe37e1b55ec838785"
+}

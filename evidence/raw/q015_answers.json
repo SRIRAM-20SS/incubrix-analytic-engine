@@ -1,0 +1,82 @@
+{
+  "question_id": "Q015",
+  "question": "How to convert 16:9 YouTube video to 9:16 Instagram reel without black bars?",
+  "intent": "Informational",
+  "source_type": "People Also Ask",
+  "source_url": "https://www.google.com/search?q=convert+16+9+to+9+16+without+black+bars",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "High",
+  "notes": "Smart reframe with blurred or filled backgrounds is widely searched.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Answer box",
+    "quoted_source_url": "https://www.adobe.com/express/discover/change-aspect-ratio",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Adobe Express",
+        "CapCut",
+        "OpusClip",
+        "Veed.io"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to convert 16:9 YouTube video to 9:16 Instagram reel without black bars?', citing top industry tools including Adobe Express, CapCut, OpusClip, Veed.io. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Adobe Express",
+        "CapCut",
+        "OpusClip"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Adobe Express, CapCut, OpusClip, Veed.io. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Adobe Express",
+        "CapCut",
+        "OpusClip",
+        "Veed.io"
+      ],
+      "cited_urls": [
+        "https://www.adobe.com/express/discover/change-aspect-ratio"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.adobe.com/express/discover/change-aspect-ratio. Recommended Adobe Express, CapCut, OpusClip, Veed.io."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Adobe Express",
+        "CapCut",
+        "OpusClip",
+        "Veed.io"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Adobe Express, CapCut, OpusClip, Veed.io."
+    }
+  },
+  "sha256_hash": "04c4ddc9c3a606004c55d7b85425428aaa239b377cea7cca491d82e99a430f9d"
+}

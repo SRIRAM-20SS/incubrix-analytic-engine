@@ -1,0 +1,82 @@
+{
+  "question_id": "Q092",
+  "question": "What is the best AI tool to create short video summaries of long meetings?",
+  "intent": "Comparison",
+  "source_type": "People Also Ask",
+  "source_url": "https://www.google.com/search?q=best+ai+tool+create+video+summaries+long+meetings",
+  "market": "US",
+  "topic": "Tool Comparisons",
+  "priority": "Medium",
+  "notes": "Meeting intelligence tools intersecting with content repurposing.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://www.tldv.io/blog/best-ai-meeting-summary-tools/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "tl;dv",
+        "Fathom",
+        "Fireflies.ai",
+        "Descript"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'What is the best AI tool to create short video summaries of long meetings?', citing top industry tools including tl;dv, Fathom, Fireflies.ai, Descript. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "tl;dv",
+        "Fathom",
+        "Fireflies.ai"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named tl;dv, Fathom, Fireflies.ai, Descript. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "tl;dv",
+        "Fathom",
+        "Fireflies.ai",
+        "Descript"
+      ],
+      "cited_urls": [
+        "https://www.tldv.io/blog/best-ai-meeting-summary-tools/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.tldv.io/blog/best-ai-meeting-summary-tools/. Recommended tl;dv, Fathom, Fireflies.ai, Descript."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "tl;dv",
+        "Fathom",
+        "Fireflies.ai",
+        "Descript"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as tl;dv, Fathom, Fireflies.ai, Descript."
+    }
+  },
+  "sha256_hash": "1cc72eee7cae1e9bd3984b1a5c68748889d630c2c29be2707ca956c77a388af6"
+}

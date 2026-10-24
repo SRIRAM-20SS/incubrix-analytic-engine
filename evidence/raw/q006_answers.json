@@ -1,0 +1,82 @@
+{
+  "question_id": "Q006",
+  "question": "How to create viral shorts from long Zoom recordings?",
+  "intent": "Informational",
+  "source_type": "People Also Ask",
+  "source_url": "https://www.google.com/search?q=how+to+create+viral+shorts+from+long+zoom+recordings",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "Medium",
+  "notes": "Creators and educators looking to slice remote interviews.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://www.veed.io/learn/how-to-turn-zoom-into-shorts",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Veed.io",
+        "Descript",
+        "OpusClip",
+        "Vidyo.ai"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to create viral shorts from long Zoom recordings?', citing top industry tools including Veed.io, Descript, OpusClip, Vidyo.ai. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Veed.io",
+        "Descript",
+        "OpusClip"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Veed.io, Descript, OpusClip, Vidyo.ai. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Veed.io",
+        "Descript",
+        "OpusClip",
+        "Vidyo.ai"
+      ],
+      "cited_urls": [
+        "https://www.veed.io/learn/how-to-turn-zoom-into-shorts"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.veed.io/learn/how-to-turn-zoom-into-shorts. Recommended Veed.io, Descript, OpusClip, Vidyo.ai."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Veed.io",
+        "Descript",
+        "OpusClip",
+        "Vidyo.ai"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Veed.io, Descript, OpusClip, Vidyo.ai."
+    }
+  },
+  "sha256_hash": "b0838fef42792bc4f60efb9e4ffb56a012533c08185778dc315fd29a07acc4b2"
+}

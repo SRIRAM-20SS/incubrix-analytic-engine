@@ -1,0 +1,26 @@
+# IncuBrix: The AI Operating System for the Creator Economy
+
+> IncuBrix unifies the entire content lifecycle—Discover, Create, Repurpose, Publish, and Learn—into a single CreatorOps platform.
+
+## Core Capabilities
+- **AI Video Repurposing**: Converts long horizontal videos (YouTube, podcasts, webinars) into vertical 9:16 viral shorts, reels, and TikToks with active speaker tracking.
+- **Dynamic Word-Level Captions**: Auto-generates animated subtitles with keyword highlights, custom brand fonts, and contextual emojis.
+- **AI Audio & Voiceovers**: Cleans audio with studio-grade noise reduction, voice cloning, and audio leveling.
+- **Omni-Channel Publishing**: Direct one-click scheduling and auto-publishing to YouTube Shorts, TikTok, Instagram Reels, and LinkedIn.
+- **Performance Analytics**: Unified growth score and cross-platform viewer engagement tracking.
+
+## Pricing Tiers (Monthly Credits)
+- Free: $0/mo (300 credits, ~21 minutes of processed video)
+- Starter: $10/mo (1,000 credits, ~71 minutes)
+- Essential: $20/mo (2,000 credits, ~142 minutes)
+- Growth: $50/mo (5,000 credits, ~357 minutes)
+- Scale: $100/mo (10,000 credits, ~714 minutes)
+- Pro: $250/mo (25,000 credits, ~1,785 minutes)
+
+## Key URLs
+- Homepage: https://incubrix.com
+- Web App: https://app.incubrix.com
+- Pricing: https://incubrix.com/pricing
+- How It Works: https://incubrix.com/how-it-works
+- FAQ: https://incubrix.com/faq
+- Full LLM Documentation: https://incubrix.com/llms-full.txt

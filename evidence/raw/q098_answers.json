@@ -1,0 +1,82 @@
+{
+  "question_id": "Q098",
+  "question": "Can I replace my full time video editor with AI tools in 2026?",
+  "intent": "Informational",
+  "source_type": "YouTube Creator Community",
+  "source_url": "https://support.google.com/youtube/community-guide/replace-video-editor-with-ai",
+  "market": "US",
+  "topic": "Tool Comparisons",
+  "priority": "High",
+  "notes": "High engagement topic; AI augments rough cuts, human polishes storytelling.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Both",
+    "quoted_source_url": "https://www.fastcompany.com/90998822/ai-video-editing-tools-human-editors",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "OpusClip",
+        "Premiere Pro",
+        "Adobe Firefly"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Can I replace my full time video editor with AI tools in 2026?', citing top industry tools including Descript, OpusClip, Premiere Pro, Adobe Firefly. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "OpusClip",
+        "Premiere Pro"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Descript, OpusClip, Premiere Pro, Adobe Firefly. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "OpusClip",
+        "Premiere Pro",
+        "Adobe Firefly"
+      ],
+      "cited_urls": [
+        "https://www.fastcompany.com/90998822/ai-video-editing-tools-human-editors"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.fastcompany.com/90998822/ai-video-editing-tools-human-editors. Recommended Descript, OpusClip, Premiere Pro, Adobe Firefly."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "OpusClip",
+        "Premiere Pro",
+        "Adobe Firefly"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Descript, OpusClip, Premiere Pro, Adobe Firefly."
+    }
+  },
+  "sha256_hash": "34b4fb124482c78e47025c62e3a4f97a86676a114550e0481c8da03afb4e3e29"
+}

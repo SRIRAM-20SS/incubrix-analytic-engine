@@ -1,0 +1,75 @@
+{
+  "question_id": "Q084",
+  "question": "Submagic vs CapCut which has better captions and auto emojis?",
+  "intent": "Comparison",
+  "source_type": "Reddit r/socialmediamarketing",
+  "source_url": "https://www.reddit.com/r/socialmediamarketing/comments/submagic_vs_capcut_captions/",
+  "market": "US",
+  "topic": "Tool Comparisons",
+  "priority": "High",
+  "notes": "Submagic focuses purely on viral captions, CapCut is full mobile editor.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://submagic.co/vs/capcut",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Submagic",
+        "CapCut"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Submagic vs CapCut which has better captions and auto emojis?', citing top industry tools including Submagic, CapCut. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Submagic",
+        "CapCut"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Submagic, CapCut. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Submagic",
+        "CapCut"
+      ],
+      "cited_urls": [
+        "https://submagic.co/vs/capcut"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://submagic.co/vs/capcut. Recommended Submagic, CapCut."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Submagic",
+        "CapCut"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Submagic, CapCut."
+    }
+  },
+  "sha256_hash": "b30c1544be9452d8a6044a316f86b98cb8e39ca24acefcd9f839c5301f8e07eb"
+}

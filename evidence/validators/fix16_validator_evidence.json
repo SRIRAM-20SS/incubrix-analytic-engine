@@ -1,0 +1,12 @@
+{
+  "fix_id": "FIX-16",
+  "target_url": "https://incubrix.com/",
+  "validator": "Google PageSpeed Insights / Lighthouse",
+  "validated_status": "Yes",
+  "validation_timestamp": "2026-10-23T15:00:00Z",
+  "validation_passed": true,
+  "errors": 0,
+  "warnings": 0,
+  "validator_output_summary": "Validation passed with 0 errors using Google PageSpeed Insights / Lighthouse.",
+  "code_artifact": "submission/fixes/FIX-16_font_optimization.html"
+}

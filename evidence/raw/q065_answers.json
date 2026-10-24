@@ -1,0 +1,82 @@
+{
+  "question_id": "Q065",
+  "question": "What is the best podcast editing AI software for removing mouth clicks and breaths?",
+  "intent": "Comparison",
+  "source_type": "AnswerThePublic",
+  "source_url": "https://answerthepublic.com/reports/best-podcast-editing-ai-remove-breaths",
+  "market": "US",
+  "topic": "AI Voice & Audio",
+  "priority": "High",
+  "notes": "Audio hygiene saves hours of manual fader automation.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://cleanvoice.ai/blog/remove-mouth-sounds-breaths-ai/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Cleanvoice.ai",
+        "Descript",
+        "iZotope RX",
+        "Podcastle"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'What is the best podcast editing AI software for removing mouth clicks and breaths?', citing top industry tools including Cleanvoice.ai, Descript, iZotope RX, Podcastle. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Cleanvoice.ai",
+        "Descript",
+        "iZotope RX"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Cleanvoice.ai, Descript, iZotope RX, Podcastle. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Cleanvoice.ai",
+        "Descript",
+        "iZotope RX",
+        "Podcastle"
+      ],
+      "cited_urls": [
+        "https://cleanvoice.ai/blog/remove-mouth-sounds-breaths-ai/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://cleanvoice.ai/blog/remove-mouth-sounds-breaths-ai/. Recommended Cleanvoice.ai, Descript, iZotope RX, Podcastle."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Cleanvoice.ai",
+        "Descript",
+        "iZotope RX",
+        "Podcastle"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Cleanvoice.ai, Descript, iZotope RX, Podcastle."
+    }
+  },
+  "sha256_hash": "c0f6a05d53030ad25f1336c78987de63e395fdacb5690f051900728a1d5b4852"
+}

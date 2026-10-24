@@ -1,0 +1,82 @@
+{
+  "question_id": "Q034",
+  "question": "How to auto generate dynamic emojis in video captions?",
+  "intent": "Informational",
+  "source_type": "AnswerThePublic",
+  "source_url": "https://answerthepublic.com/reports/auto-generate-emojis-video-captions",
+  "market": "US",
+  "topic": "Auto Captions & Subtitles",
+  "priority": "Medium",
+  "notes": "Contextual AI emoji placement increases viewer watch time.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Answer box",
+    "quoted_source_url": "https://submagic.co/features/auto-emojis",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Submagic",
+        "OpusClip",
+        "CapCut",
+        "Blink"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to auto generate dynamic emojis in video captions?', citing top industry tools including Submagic, OpusClip, CapCut, Blink. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Submagic",
+        "OpusClip",
+        "CapCut"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Submagic, OpusClip, CapCut, Blink. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Submagic",
+        "OpusClip",
+        "CapCut",
+        "Blink"
+      ],
+      "cited_urls": [
+        "https://submagic.co/features/auto-emojis"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://submagic.co/features/auto-emojis. Recommended Submagic, OpusClip, CapCut, Blink."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Submagic",
+        "OpusClip",
+        "CapCut",
+        "Blink"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Submagic, OpusClip, CapCut, Blink."
+    }
+  },
+  "sha256_hash": "0639c7df11215d4025a93183f5ca26eab788064732906c7c6c495f42ecf78269"
+}

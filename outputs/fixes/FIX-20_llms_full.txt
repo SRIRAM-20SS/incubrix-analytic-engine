@@ -1,0 +1,22 @@
+# IncuBrix CreatorOps Full Technical Specification
+
+## Overview
+IncuBrix is the unified AI operating system for creators and media teams. It consolidates ideation, AI-assisted video editing, automated vertical repurposing, multi-platform publishing, and post-performance analytics into one seamless pipeline.
+
+## System Architecture
+- Client: Modern SPA with client-side IndexedDB encryption and resume pointers for gigabyte-scale video uploads.
+- Video Processing: Automated speaker diarization, speech-to-text with OpenAI Whisper, active speaker face framing, and serverless ffmpeg re-encoding.
+- Output Formats: 9:16 vertical shorts (1080x1920), 1:1 square feeds (1080x1080), 16:9 horizontal master cuts.
+
+## Supported Integrations
+- Input Sources: YouTube URLs, Zoom Cloud Recordings, Google Drive, Dropbox, Local MP4/MOV uploads.
+- Publishing Endpoints: YouTube Data API v3, TikTok Content Posting API, Instagram Graph API, LinkedIn Community Management API.
+
+## Pricing Plans & Credit Usage
+- Free ($0/mo): 300 credits
+- Starter ($10/mo): 1,000 credits
+- Essential ($20/mo): 2,000 credits
+- Growth ($50/mo): 5,000 credits
+- Scale ($100/mo): 10,000 credits
+- Pro ($250/mo): 25,000 credits
+*Consumption standard: ~14 credits per 1 minute of processed video.*

@@ -1,0 +1,419 @@
+=== PAGE 1 ===
+PSG CAMPUS HIRING  |  2027 COHORT
+Build the
+AI-powered
+operating system
+for the creator
+economy.
+Graduate opportunities in 
+Software Engineering, 
+High-Tech Business 
+Development and 
+Entrepreneurial Engineering
+ OCTOBER  2026
+
+=== PAGE 2 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+Our vision for the creator economy.
+IncuBrix · PSG Campus Hiring · October 202602
+Build the AI-powered 
+operating system for the 
+creator economy.
+Creators should spend their time creating, not 
+stitching tools together.
+FROM  Disconnected tools
+→  One live CreatorOps platform
+FROM  Manual hand-offs
+→  An AI-powered workﬂow
+FROM  One-off effort
+→  Repeatable learning and growth
+
+=== PAGE 3 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+What IncuBrix offers creators.
+IncuBrix · PSG Campus Hiring · October 202603
+One workﬂow from idea to insight.
+01
+Discover
+Find ideas worth 
+making.
+02
+Create
+Produce content 
+with AI support.
+03
+Repurpose
+Turn one piece 
+into many 
+formats.
+04
+Publish
+Get your work out 
+to your audience.
+05
+Learn
+Use analytics to 
+see what worked.
+All five stages in one live platform. Explore it at app.incubrix.com
+
+=== PAGE 4 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+Creators need one operating system.
+IncuBrix · PSG Campus Hiring · October 202604
+Not another disconnected tool.
+Most creators still move manually between 
+ideation, creation, repurposing, publishing 
+and analytics.
+IncuBrix brings the full journey together in 
+one live CreatorOps platform.
+Discover Create Repurpose Publish Learn
+A single workflow turns creator effort into 
+repeatable learning and growth.
+
+
+=== PAGE 5 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+This is a live product company.
+IncuBrix · PSG Campus Hiring · October 202605
+Expect real responsibility, early.
+20
+people across Singapore and 
+India
+5
+Singapore
+15
+India
+What that means for you
+The India team consists primarily of 
+2026 graduates across engineering, AI, 
+product and growth.
+Ideas can reach production—and a 
+creator's workflow—in days.
+You get context, feedback and senior 
+access, then own measurable outcomes.
+“We do not lower the bar because you are a graduate.”
+
+
+=== PAGE 6 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+Access and ownership create the learning 
+curve.
+IncuBrix · PSG Campus Hiring · October 2026
+06
+What current team members say
+9 in 10
+cross-role and
+technology exposure
+7 in 10
+early ownership
+7 in 10
+direct senior-leader
+access
+8 in 10
+say this is not a
+large-company 
+environment
+The trade-off is clear: broad exposure and direct access come with ambiguity, pace and personal 
+accountability.
+Source: Anonymous IncuBrix employee pulse, October 2026 (n=12).
+
+
+=== PAGE 7 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+Choose the role by how you create value.
+IncuBrix · PSG Campus Hiring · October 2026
+07
+Every track demands strong fundamentals, rapid learning and ownership.
+01
+Software
+Engineer
+Ship reliable product and AI/media 
+systems—and improve them with 
+production evidence.
+EVIDENCE THAT STANDS OUT
+Working software · clean code · 
+debugging depth · measurable 
+engineering improvement
+02
+Growth
+Engineer
+Engineer commercial systems and 
+move qualified opportunities 
+toward pilots and revenue.
+EVIDENCE THAT STANDS OUT
+Automation · market insight · customer 
+conversations · qualified pipeline · 
+commercial outcomes
+03
+Associate
+Tech Partner
+Clear both bars, then own product 
+and business outcomes like a 
+mini-venture.
+EVIDENCE THAT STANDS OUT
+Production-grade engineering · 
+commercial judgement · entrepreneurial 
+ownership
+Select one primary role. For Associate Tech Partner, select both Software Engineer and Growth Engineer.
+
+
+=== PAGE 8 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+Software Engineer: ship, observe, improve.
+IncuBrix · PSG Campus Hiring · October 2026
+08
+Own production systems used by creators—and prove they are reliable.
+LIKELY STACK
+Go · Python · TypeScript/React
+APIs · queues · cloud · AI/media workflows
+THE BAR
+• Build, test, release and remain 
+accountable after launch.
+• Debug with logs, metrics and disciplined 
+reasoning.
+• Improve reliability, latency, cost, output 
+quality or user completion with evidence.
+Your ﬁrst 90 days
+0130 Ship early Resolve a production defect and release a customer-visible 
+improvement.
+3160 Own end to end Design, build, test, instrument 
+and release a bounded feature 
+or service.
+6190 Prove impact Lead a measurable improvement 
+and defend the before/after 
+result.
+Selection: new production problem · correctness · tests · debugging · trade-offs · measurable improvement
+
+
+=== PAGE 9 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+Growth Engineer: build the commercial system.
+IncuBrix · PSG Campus Hiring · October 2026
+09
+Code and sell—with automation and market evidence.
+What you will own
+• Identify priority segments, 
+decision-makers and buying triggers.
+• Build ethical, sourced automation for 
+research, personalisation, CRM and 
+forecasting.
+• Run discovery, demos and proposals; 
+move qualified opportunities toward pilots 
+or revenue.
+• Turn objections into better product and 
+commercial decisions.
+Your ﬁrst 90 days
+0130 Master product 
++ ICPs
+Build a sourced pipeline and hold at 
+least 10 qualified discovery 
+conversations.
+3160 Own a motion Run outreach, demos and at least 
+two credible pilot or partnership 
+proposals.
+6190 Move one 
+opportunity
+Advance one qualified opportunity 
+into pilot, commercial evaluation or 
+due diligence.
+Selection: sourced pipeline · useful automation · discovery · pitch · pilot proposal · commercial judgement
+Sourced leads · verified data · no spam
+
+=== PAGE 10 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+Associate Tech Partner: clear both bars.
+IncuBrix · PSG Campus Hiring · October 2026
+10
+Then own a mini-venture outcome - Our highest-scope graduate track
+What you will own
+• Write production code. Speak with 
+users. Make technical and 
+commercial trade-offs. Own the 
+result from idea to adoption, pilot, 
+revenue potential or cost 
+improvement.
+• 3× impact comes from 
+judgement, speed, automation 
+and ownership—not simply 
+longer hours.
+Your ﬁrst 90 days
+0130 Ship + discover
+Ship an improvement. Hold 5 
+conversations. Present one 
+opportunity thesis.
+3160 Prototype + 
+validate
+Build the prototype, model 
+value/ROI and defend a go/no-go 
+case.
+6190 Launch + lead
+Ship an MVP. Secure adoption or a 
+pilot path. Lead the decision review.
+Selection requirement: clear both the Software Engineer and Growth Engineer bars.
+
+
+=== PAGE 11 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+Know the commitment before you opt in.
+IncuBrix · PSG Campus Hiring · October 2026
+11
+The pathway is a full-time offer with probation—not a casual internship.
+ELIGIBILITY
+PSG 2027 B.Tech students from eligible School of 
+Computing and School of EEE branches, subject to 
+university norms.
+OFFER & JOINING
+Full-time offer issued at selection. Joining may be 
+immediate, December 2026 or early January 2027, based 
+on role and business needs.
+BASE & MOBILITY
+Tiruchirappalli initially. Be open to a future move to 
+Bengaluru as the team expands; the final 
+arrangement is stated before acceptance.
+CAMPUS COMMITMENT
+Under PSG norms, accepting the IncuBrix offer means 
+you will not participate in subsequent on-campus hiring 
+processes.
+Probation: 610 months · PSG may recognize the period until graduation for internship / final-semester project requirements · 
+role-relevant medical assessment may apply.
+
+
+=== PAGE 12 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+Selection rewards evidence over pedigree.
+IncuBrix · PSG Campus Hiring · October 2026
+12
+We assess what you can build, learn, explain and own.
+ 15 OCT
+Brieﬁng
+Mission, roles, terms 
+and Q&A
+12 DAYS
+Interest form
+Role choice, eligibility 
+and evidence
+7 DAYS
+Assignment
+Real-world, 
+time-boxed 
+assessment
+AFTER SHORTLISTING
+Interviews
+Defence, deep dive, 
+values and leadership
+AFTER SELECTION
+Offer
+Clearance, university 
+steps and joining
+Assignment submissions are for assessment and will not be deployed as unpaid production work.
+Plan for two on-campus interview days; a third may be added based on volume or final-round logistics.
+
+
+=== PAGE 13 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+Your role and CTC tier are conﬁrmed upfront.
+IncuBrix · PSG Campus Hiring · October 202613
+PROBATION
+₹20,000
+per month · 610 months
+Confirmed CTC activates from 1 July 2027 after successful 
+probation and completion of PSG academic requirements.
+TIER 1 TIER 2 TIER 3
+Software Engineer / Growth 
+Engineer
+₹5 LPA ₹8 LPA ₹12 LPA
+Associate Tech Partner ₹10 LPA ₹15 LPA ₹20 LPA
+TIER LOGIC bounded execution end-to-end ownership ambiguous, material impact
+Offer terms state pay mix, measures and schedule. Tier reflects verified capability, 
+judgement, ownership and results—not hours.
+
+
+=== PAGE 14 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+Come prepared to defend your work.
+IncuBrix · PSG Campus Hiring · October 2026
+14
+What to submit
+01 One primary role
+For Associate Tech Partner, select both 
+engineering and growth.
+02 Outcome-focused resume
+Show what changed because of your 
+work—not only the tools.
+03 Project evidence
+Use the prescribed format; include work 
+you can personally defend.
+04 150-word response
+What would you improve first for 
+creators—and why?
+How AI tools are handled
+AI use may be permitted - but accountability 
+cannot be delegated.
+• Disclose material AI use.
+• Verify every output.
+• Explain every decision.
+• Protect confidential information.
+Unverifiable or copied work will be rejected.
+
+
+=== PAGE 15 ===
+INCUBRIX  PSG  |  2027 GRADUATE BRIEFING
+Choose ownership—not predictability.
+IncuBrix · PSG Campus Hiring · October 2026
+15
+Opt in with a clear view of the environment you are choosing.
+You are likely to thrive if…
+• You want broad exposure and direct access to 
+decision-makers.
+• You learn mainly through real work, review and 
+self-directed study.
+• You can adapt when user evidence, quality or 
+business needs change.
+• You want recognition tied to verified capability, 
+ownership and results.
+Think carefully if your priority is…
+• A fixed scope from day one.
+• Fully established processes.
+• Continuous supervision and classroom-style 
+training.
+• A predictable large-company environment.
+Time-critical releases may occasionally require schedule flexibility. Health, safety, dignity and respectful conduct are 
+non-negotiable.
+
+
+=== PAGE 16 ===
+YOUR NEXT MOVE
+Your decision starts
+with one role.
+01
+Choose
+Select the role that matches how 
+you create value.
+02
+Prepare
+Bring outcome-focused evidence 
+you can defend.
+03
+Respond
+Explain what you would improve 
+first for creators—and why.
+Questions? Explore: app.incubrix.com  ·  Learn more: incubrix.com
+
+
+=== PAGE 17 ===
+Think you could build something, grow something, or make 
+something happen here? Take the mic. 
+The Open Mic
+Your mic. Your moment. 
+01
+60 - 90 Seconds
+Your pitch. Your story.
+02
+Show, Tell
+Ideas, projects, skills, experiments.
+03
+Any Role. Any Angle
+Show us what makes you different. 
+No perfect answers. No rehearsed résumé. Just initiative, curiosity, and potential. 
+
+

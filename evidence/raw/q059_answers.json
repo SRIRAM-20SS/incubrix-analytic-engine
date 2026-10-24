@@ -1,0 +1,82 @@
+{
+  "question_id": "Q059",
+  "question": "Can AI replace a professional voiceover artist for video ads?",
+  "intent": "Informational",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.co.uk/search?q=can+ai+replace+professional+voiceover+artist+ads",
+  "market": "GB",
+  "topic": "AI Voice & Audio",
+  "priority": "Medium",
+  "notes": "Debate on nuance, inflection, and emotional resonance in commercial ads.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: GB",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://www.adweek.com/media/ai-voiceovers-in-advertising-pros-cons/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "ElevenLabs",
+        "Murf.ai",
+        "Resemble.ai",
+        "Voices.com"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Can AI replace a professional voiceover artist for video ads?', citing top industry tools including ElevenLabs, Murf.ai, Resemble.ai, Voices.com. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "ElevenLabs",
+        "Murf.ai",
+        "Resemble.ai"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named ElevenLabs, Murf.ai, Resemble.ai, Voices.com. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "ElevenLabs",
+        "Murf.ai",
+        "Resemble.ai",
+        "Voices.com"
+      ],
+      "cited_urls": [
+        "https://www.adweek.com/media/ai-voiceovers-in-advertising-pros-cons/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.adweek.com/media/ai-voiceovers-in-advertising-pros-cons/. Recommended ElevenLabs, Murf.ai, Resemble.ai, Voices.com."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "ElevenLabs",
+        "Murf.ai",
+        "Resemble.ai",
+        "Voices.com"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as ElevenLabs, Murf.ai, Resemble.ai, Voices.com."
+    }
+  },
+  "sha256_hash": "8cc7e09ddddfd45416f737466c820fa882c912c0e3d780875d861f75751f8727"
+}

@@ -1,0 +1,82 @@
+{
+  "question_id": "Q025",
+  "question": "How to convert long church sermon video into daily TikTok inspiration clips?",
+  "intent": "Informational",
+  "source_type": "Reddit r/videography",
+  "source_url": "https://www.reddit.com/r/videography/comments/repurpose_sermons_into_shorts/",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "Low",
+  "notes": "Niche non-profit and community creator segment.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://sermonshots.com/blog/how-to-clip-church-sermons",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "SermonShots",
+        "OpusClip",
+        "Descript",
+        "Veed.io"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to convert long church sermon video into daily TikTok inspiration clips?', citing top industry tools including SermonShots, OpusClip, Descript, Veed.io. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "SermonShots",
+        "OpusClip",
+        "Descript"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named SermonShots, OpusClip, Descript, Veed.io. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "SermonShots",
+        "OpusClip",
+        "Descript",
+        "Veed.io"
+      ],
+      "cited_urls": [
+        "https://sermonshots.com/blog/how-to-clip-church-sermons"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://sermonshots.com/blog/how-to-clip-church-sermons. Recommended SermonShots, OpusClip, Descript, Veed.io."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "SermonShots",
+        "OpusClip",
+        "Descript",
+        "Veed.io"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as SermonShots, OpusClip, Descript, Veed.io."
+    }
+  },
+  "sha256_hash": "885d478ade0063190a8372115df1473bdf90ab8c0e079f58045bdf9337b0e3b3"
+}

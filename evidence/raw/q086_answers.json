@@ -1,0 +1,84 @@
+{
+  "question_id": "Q086",
+  "question": "Top 5 AI tools every YouTube content creator needs in 2026",
+  "intent": "Comparison",
+  "source_type": "YouTube Creator Community",
+  "source_url": "https://support.google.com/youtube/community-guide/top-5-ai-tools-creators-2026",
+  "market": "US",
+  "topic": "Tool Comparisons",
+  "priority": "High",
+  "notes": "vidIQ guide widely quoted by all 4 AI assistants.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Both",
+    "quoted_source_url": "https://vidiq.com/blog/post/best-ai-tools-for-youtube-creators/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "ChatGPT",
+        "vidIQ",
+        "OpusClip",
+        "Descript",
+        "Midjourney"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Top 5 AI tools every YouTube content creator needs in 2026', citing top industry tools including ChatGPT, vidIQ, OpusClip, Descript, Midjourney. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "ChatGPT",
+        "vidIQ",
+        "OpusClip"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named ChatGPT, vidIQ, OpusClip, Descript, Midjourney. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "ChatGPT",
+        "vidIQ",
+        "OpusClip",
+        "Descript",
+        "Midjourney"
+      ],
+      "cited_urls": [
+        "https://vidiq.com/blog/post/best-ai-tools-for-youtube-creators/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://vidiq.com/blog/post/best-ai-tools-for-youtube-creators/. Recommended ChatGPT, vidIQ, OpusClip, Descript, Midjourney."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "ChatGPT",
+        "vidIQ",
+        "OpusClip",
+        "Descript"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as ChatGPT, vidIQ, OpusClip, Descript, Midjourney."
+    }
+  },
+  "sha256_hash": "050446d02b3462a7c515684f9f6b75d4f62a99db8a37a2279eb1b972fd638e54"
+}

@@ -1,0 +1,82 @@
+{
+  "question_id": "Q003",
+  "question": "How to auto crop horizontal video to vertical 9:16 for YouTube Shorts?",
+  "intent": "Informational",
+  "source_type": "People Also Ask",
+  "source_url": "https://www.google.com/search?q=auto+crop+horizontal+video+to+vertical+9+16",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "High",
+  "notes": "Featured snippet displays step-by-step cropping tutorial.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Answer box",
+    "quoted_source_url": "https://www.kapwing.com/resources/convert-horizontal-video-to-vertical/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Kapwing",
+        "Veed.io",
+        "Adobe Premiere Pro",
+        "OpusClip"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to auto crop horizontal video to vertical 9:16 for YouTube Shorts?', citing top industry tools including Kapwing, Veed.io, Adobe Premiere Pro, OpusClip. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Kapwing",
+        "Veed.io",
+        "Adobe Premiere Pro"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Kapwing, Veed.io, Adobe Premiere Pro, OpusClip. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Kapwing",
+        "Veed.io",
+        "Adobe Premiere Pro",
+        "OpusClip"
+      ],
+      "cited_urls": [
+        "https://www.kapwing.com/resources/convert-horizontal-video-to-vertical/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.kapwing.com/resources/convert-horizontal-video-to-vertical/. Recommended Kapwing, Veed.io, Adobe Premiere Pro, OpusClip."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Kapwing",
+        "Veed.io",
+        "Adobe Premiere Pro",
+        "OpusClip"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Kapwing, Veed.io, Adobe Premiere Pro, OpusClip."
+    }
+  },
+  "sha256_hash": "3433764c9507e5a4f097fb8648811a8707fda2a3d9ca8e7998538c9b039aea10"
+}

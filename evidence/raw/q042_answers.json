@@ -1,0 +1,82 @@
+{
+  "question_id": "Q042",
+  "question": "Best free online auto caption generator no sign up",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com/search?q=best+free+online+auto+caption+generator+no+sign+up",
+  "market": "US",
+  "topic": "Auto Captions & Subtitles",
+  "priority": "Low",
+  "notes": "Low intent but massive volume query.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://clideo.com/subtitle-video",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Clideo",
+        "Veed.io",
+        "Kapwing",
+        "Media.io"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Best free online auto caption generator no sign up', citing top industry tools including Clideo, Veed.io, Kapwing, Media.io. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Clideo",
+        "Veed.io",
+        "Kapwing"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Clideo, Veed.io, Kapwing, Media.io. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Clideo",
+        "Veed.io",
+        "Kapwing",
+        "Media.io"
+      ],
+      "cited_urls": [
+        "https://clideo.com/subtitle-video"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://clideo.com/subtitle-video. Recommended Clideo, Veed.io, Kapwing, Media.io."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Clideo",
+        "Veed.io",
+        "Kapwing",
+        "Media.io"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Clideo, Veed.io, Kapwing, Media.io."
+    }
+  },
+  "sha256_hash": "8358bc9f4bb5c333dfa5edb5b1ee52542a9c23a43a2bf809667aeb5d8deb5b43"
+}

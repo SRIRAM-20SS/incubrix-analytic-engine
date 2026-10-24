@@ -1,0 +1,82 @@
+{
+  "question_id": "Q099",
+  "question": "Best video clipping software for podcast agencies with multiple client workspaces",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.co.uk/search?q=best+video+clipping+software+podcast+agencies+workspaces",
+  "market": "GB",
+  "topic": "Tool Comparisons",
+  "priority": "High",
+  "notes": "Multi-tenant workspaces and brand kit separation is key for agencies.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: GB",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://agencyanalytics.com/blog/best-podcast-agency-tools",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "OpusClip",
+        "Riverside",
+        "Frame.io"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Best video clipping software for podcast agencies with multiple client workspaces', citing top industry tools including Descript, OpusClip, Riverside, Frame.io. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "OpusClip",
+        "Riverside"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Descript, OpusClip, Riverside, Frame.io. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "OpusClip",
+        "Riverside",
+        "Frame.io"
+      ],
+      "cited_urls": [
+        "https://agencyanalytics.com/blog/best-podcast-agency-tools"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://agencyanalytics.com/blog/best-podcast-agency-tools. Recommended Descript, OpusClip, Riverside, Frame.io."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "OpusClip",
+        "Riverside",
+        "Frame.io"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Descript, OpusClip, Riverside, Frame.io."
+    }
+  },
+  "sha256_hash": "f316e441f9651ff158d30ef9b8db57f911b4521cb718986e550690419c2d788c"
+}

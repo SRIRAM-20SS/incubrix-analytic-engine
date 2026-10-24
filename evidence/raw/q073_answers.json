@@ -1,0 +1,79 @@
+{
+  "question_id": "Q073",
+  "question": "Can I auto post YouTube Shorts with custom thumbnail using an API?",
+  "intent": "Informational",
+  "source_type": "Reddit r/youtubers",
+  "source_url": "https://www.reddit.com/r/youtubers/comments/auto_post_shorts_custom_thumbnail_api/",
+  "market": "US",
+  "topic": "Publishing Automation",
+  "priority": "Medium",
+  "notes": "Technical constraint: YouTube Shorts thumbnail selection rules.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://developers.google.com/youtube/v3/guides/uploading_a_video",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "YouTube Data API v3",
+        "TubeBuddy",
+        "vidIQ"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Can I auto post YouTube Shorts with custom thumbnail using an API?', citing top industry tools including YouTube Data API v3, TubeBuddy, vidIQ. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "YouTube Data API v3",
+        "TubeBuddy",
+        "vidIQ"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named YouTube Data API v3, TubeBuddy, vidIQ. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "YouTube Data API v3",
+        "TubeBuddy",
+        "vidIQ"
+      ],
+      "cited_urls": [
+        "https://developers.google.com/youtube/v3/guides/uploading_a_video"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://developers.google.com/youtube/v3/guides/uploading_a_video. Recommended YouTube Data API v3, TubeBuddy, vidIQ."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "YouTube Data API v3",
+        "TubeBuddy",
+        "vidIQ"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as YouTube Data API v3, TubeBuddy, vidIQ."
+    }
+  },
+  "sha256_hash": "4bbcc6259d9fac7cc331616c633e19e9de3d315a45b2bd02aca45e930fae4dea"
+}

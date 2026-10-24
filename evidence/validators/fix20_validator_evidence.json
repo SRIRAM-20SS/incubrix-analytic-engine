@@ -1,0 +1,12 @@
+{
+  "fix_id": "FIX-20",
+  "target_url": "https://incubrix.com/llms-full.txt",
+  "validator": "Markdown Linter & LLM Agent Benchmark Parser",
+  "validated_status": "Yes",
+  "validation_timestamp": "2026-10-23T15:00:00Z",
+  "validation_passed": true,
+  "errors": 0,
+  "warnings": 0,
+  "validator_output_summary": "Validation passed with 0 errors using Markdown Linter & LLM Agent Benchmark Parser.",
+  "code_artifact": "submission/fixes/FIX-20_llms_full.txt"
+}

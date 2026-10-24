@@ -1,0 +1,75 @@
+{
+  "question_id": "Q085",
+  "question": "Is Vidyo.ai better than OpusClip for vertical video reframing?",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.co.in/search?q=is+vidyo+ai+better+than+opusclip",
+  "market": "IN",
+  "topic": "Tool Comparisons",
+  "priority": "High",
+  "notes": "Vidyo.ai has major presence in India; frequent direct comparison.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: IN",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://www.toolify.ai/ai-news/opus-clip-vs-vidyo-ai-comparison",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Vidyo.ai",
+        "OpusClip"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Is Vidyo.ai better than OpusClip for vertical video reframing?', citing top industry tools including Vidyo.ai, OpusClip. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Vidyo.ai",
+        "OpusClip"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Vidyo.ai, OpusClip. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Vidyo.ai",
+        "OpusClip"
+      ],
+      "cited_urls": [
+        "https://www.toolify.ai/ai-news/opus-clip-vs-vidyo-ai-comparison"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.toolify.ai/ai-news/opus-clip-vs-vidyo-ai-comparison. Recommended Vidyo.ai, OpusClip."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Vidyo.ai",
+        "OpusClip"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Vidyo.ai, OpusClip."
+    }
+  },
+  "sha256_hash": "ffd1926e7cfd687a748dee9e4aa4e0d17c6d0b18675c1243d5c265cbc824d986"
+}
