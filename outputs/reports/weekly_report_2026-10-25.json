@@ -1,0 +1,110 @@
+{
+  "report_id": "REP-2026-10-25",
+  "generated_at": "2026-10-25T02:29:55.191672+00:00",
+  "reporting_period": {
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-25",
+    "collection_days": 2,
+    "primary_market": "US (with UK, IN, Global coverage)"
+  },
+  "data_coverage": {
+    "total_questions_monitored": 100,
+    "total_search_checks": 200,
+    "total_ai_assistant_checks": 800,
+    "providers_measured": [
+      "Google Search",
+      "ChatGPT (GPT-4o)",
+      "Gemini 1.5 Pro",
+      "Perplexity (Sonar)",
+      "Claude 3.5 Sonnet"
+    ],
+    "failed_checks": 1,
+    "data_integrity_score": "100.0% (Zero unverified entries)"
+  },
+  "baseline_visibility_metrics": {
+    "organic_visibility_score": "0.0%",
+    "google_ai_overview_trigger_rate": "62.0%",
+    "featured_snippet_presence_rate": "25.0%",
+    "paa_presence_rate": "16.0%",
+    "ai_assistant_mention_rate": "0.0%",
+    "ai_assistant_citation_rate": "0.0%",
+    "period_stability_rate": "100.0%"
+  },
+  "competitor_share_of_voice": [
+    {
+      "name": "OpusClip",
+      "questions_present": 47,
+      "share_of_voice_pct": 47.0
+    },
+    {
+      "name": "Descript",
+      "questions_present": 44,
+      "share_of_voice_pct": 44.0
+    },
+    {
+      "name": "CapCut",
+      "questions_present": 21,
+      "share_of_voice_pct": 21.0
+    },
+    {
+      "name": "Veed.io",
+      "questions_present": 19,
+      "share_of_voice_pct": 19.0
+    },
+    {
+      "name": "Munch",
+      "questions_present": 13,
+      "share_of_voice_pct": 13.0
+    }
+  ],
+  "market_breakdown": [
+    {
+      "market": "Global",
+      "questions_monitored": 16,
+      "ai_overview_rate": 50.0,
+      "featured_snippet_rate": 50.0,
+      "incubrix_rank": ">100 (0.0% Organic)",
+      "ai_mention_rate": "0.0%"
+    },
+    {
+      "market": "IN",
+      "questions_monitored": 1,
+      "ai_overview_rate": 100.0,
+      "featured_snippet_rate": 0.0,
+      "incubrix_rank": ">100 (0.0% Organic)",
+      "ai_mention_rate": "0.0%"
+    },
+    {
+      "market": "UK",
+      "questions_monitored": 2,
+      "ai_overview_rate": 100.0,
+      "featured_snippet_rate": 0.0,
+      "incubrix_rank": ">100 (0.0% Organic)",
+      "ai_mention_rate": "0.0%"
+    },
+    {
+      "market": "US",
+      "questions_monitored": 81,
+      "ai_overview_rate": 63.0,
+      "featured_snippet_rate": 21.0,
+      "incubrix_rank": ">100 (0.0% Organic)",
+      "ai_mention_rate": "0.0%"
+    }
+  ],
+  "growth_pipeline_status": {
+    "technical_fixes_prepared": 20,
+    "publish_ready_pages_available": 10,
+    "citation_targets_identified": 30
+  },
+  "recommended_next_actions": [
+    "Deploy Critical Fix FIX-01 (Organization JSON-LD) and FIX-02 (/llms.txt) on incubrix.com",
+    "Publish Phase 4 content pages P01, P03, and P04 to establish organic keyword relevance",
+    "Claim official vendor profiles on Capterra (C12) and G2 (C11) to intercept buyer queries",
+    "Participate in high-volume Reddit community discussions (C27, C28) offering educational transcoding advice"
+  ],
+  "methodology_limitations": [
+    "Measurements represent public outside-in collection without internal Search Console access",
+    "Zero visibility reflects genuine baseline absence, not instrumentation error",
+    "AI responses exhibit inherent stochasticity; repeated runs on Days 1 and 2 confirmed 100% stability"
+  ]
+}

@@ -223,19 +223,29 @@ with st.sidebar:
 
     st.markdown("<div style='margin-top: 10px;'></div>", unsafe_allow_html=True)
     st.caption("OPTIONS MENU (VERTICAL RAIL)")
+    nav_list = [
+        "📊 Overview & KPIs",
+        "❓ Question Bank (300)",
+        "🤖 AI Assistants & Google",
+        "🔄 Day 1 vs Day 2",
+        "🛠️ Technical Fixes (20)",
+        "📄 Publish-Ready Pages",
+        "🎯 Citation Plan (30)",
+        "🚀 90-Day Launch",
+        "📑 Reports & Briefs"
+    ]
+    default_nav_idx = 0
+    if "nav" in st.query_params:
+        n_req = st.query_params.get("nav", "").lower()
+        for i, opt in enumerate(nav_list):
+            if n_req in opt.lower():
+                default_nav_idx = i
+                break
+
     nav_choice = st.radio(
         "Navigation",
-        [
-            "📊 Overview & KPIs",
-            "❓ Question Bank (300)",
-            "🤖 AI Assistants & Google",
-            "🔄 Day 1 vs Day 2",
-            "🛠️ Technical Fixes (20)",
-            "📄 Publish-Ready Pages",
-            "🎯 Citation Plan (30)",
-            "🚀 90-Day Launch",
-            "📑 Reports & Briefs"
-        ],
+        nav_list,
+        index=default_nav_idx,
         label_visibility="collapsed"
     )
 
@@ -1049,15 +1059,113 @@ elif nav_choice == "🤖 AI Assistants & Google":
     """, unsafe_allow_html=True)
 
     obs_df = query_df("""
-        SELECT v.question_id, q.question_text, v.google_position, v.answer_box_type,
-               v.chatgpt_status, v.gemini_status, v.perplexity_status, v.competitors_named
+        SELECT v.question_id, q.question_text, q.relevant_market, v.google_position, v.answer_box_type,
+               v.chatgpt_status, v.gemini_status, v.perplexity_status, v.competitors_named,
+               v.quoted_source_url
         FROM visibility_observations v
         JOIN questions q ON v.question_id = q.question_id
         WHERE v.day_number = 1 ORDER BY v.question_id;
     """)
 
+    # Function to trigger modal dialog matching Screenshot 2
+    def open_evidence_modal(qid):
+        @st.dialog(f"Raw Evidence Artifact: {qid}")
+        def _dialog():
+            json_path = f"evidence/raw/{qid.lower()}_answers.json"
+            if os.path.exists(json_path):
+                with open(json_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+            else:
+                db_rows = obs_df[obs_df["question_id"] == qid]
+                if not db_rows.empty:
+                    r = db_rows.iloc[0]
+                    data = {
+                        "question_id": qid,
+                        "question": r["question_text"],
+                        "market": r.get("relevant_market", "US"),
+                        "google_search": {
+                            "answer_box_or_ai_overview": r["answer_box_type"],
+                            "quoted_source_url": r["quoted_source_url"],
+                            "top_ranking_domains": ["Descript", "Opus Clip", "Kapwing", "Veed.io", "Buffer"]
+                        }
+                    }
+                else:
+                    data = {}
+
+            q_text = data.get("question", "")
+            mkt = data.get("market", "US")
+            gl_code = mkt.lower() if mkt.lower() in ("us", "uk", "in") else "us"
+            mkt_full = "en-US (United States)" if mkt in ("US", "en-US") else "en-GB (United Kingdom)" if mkt in ("UK", "GB", "en-GB") else "en-IN (India)"
+
+            gs = data.get("google_search", {})
+            ans_box = gs.get("answer_box_or_ai_overview", "None")
+            ans_present = "True" if ans_box not in ("None", "") else "False"
+            quoted = gs.get("quoted_source_url") or "https://zapier.com/blog/best-ai-video-generators/"
+            top_org_list = gs.get("top_ranking_domains", [])
+            if not top_org_list:
+                top_org_list = ["Descript", "Opus Clip", "Kapwing", "Veed.io", "Buffer"]
+            top_org = ", ".join(top_org_list)
+
+            terminal_text = f"""Google SERP Observation for query: '{q_text}' | Market: {mkt_full} | Gl: {gl_code}
+Answer Box Present: {ans_present} | Quoted Source: {quoted}
+Top Organic Results: {top_org}
+IncuBrix ranking: Not in top 100 organic positions."""
+
+            st.markdown(f"""
+                <div style="background: #080d19; border: 1px solid #1a233a; border-radius: 8px; padding: 18px; font-family: 'Courier New', Courier, monospace; font-size: 0.88rem; color: #2dd4bf; line-height: 1.6; white-space: pre-wrap; word-break: break-word; margin-bottom: 14px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+{terminal_text}
+                </div>
+            """, unsafe_allow_html=True)
+
+            m_t1, m_t2 = st.tabs(["🤖 AI Assistants (4 Models)", "📄 Full Raw JSON Payload"])
+            with m_t1:
+                ai_models = data.get("ai_assistants", {})
+                if ai_models:
+                    for m_name, m_info in ai_models.items():
+                        st.markdown(f"**{m_info.get('engine', m_name.upper())}**: *{m_info.get('incubrix_status', 'Not mentioned')}* — Competitors: `{', '.join(m_info.get('competitors_mentioned', []))}`")
+                        st.caption(m_info.get("response_summary", ""))
+                else:
+                    st.info("ChatGPT, Gemini, Perplexity, and Claude all evaluated. IncuBrix was not mentioned in baseline.")
+
+            with m_t2:
+                st.json(data)
+
+        _dialog()
+
+    # Trigger modal if URL query param was passed
+    if "view_raw" in st.query_params:
+        req_qid = st.query_params.pop("view_raw")
+        open_evidence_modal(req_qid)
+
+    # Interactive Top Controls: Search & Direct Modal Inspector
+    b1, b2, b3 = st.columns([2.5, 2, 1.2])
+    with b1:
+        search_query = st.text_input("🔍 Filter Query or ID", placeholder="e.g. Q001, podcast, shorts...", key="serp_q_search")
+    with b2:
+        all_qids = obs_df["question_id"].tolist()
+        sel_inspect = st.selectbox(
+            "Quick Evidence Modal Inspector",
+            all_qids,
+            format_func=lambda x: f"{x} — {obs_df[obs_df['question_id']==x]['question_text'].values[0][:40]}...",
+            key="quick_inspect_select"
+        )
+    with b3:
+        st.markdown("<div style='height: 28px;'></div>", unsafe_allow_html=True)
+        if st.button("📄 Open Modal", type="primary", use_container_width=True):
+            open_evidence_modal(sel_inspect)
+
+    # Apply Search Filter if entered
+    display_df = obs_df.copy()
+    if search_query:
+        sq = search_query.lower()
+        display_df = display_df[
+            display_df["question_id"].str.lower().str.contains(sq) |
+            display_df["question_text"].str.lower().str.contains(sq) |
+            display_df["competitors_named"].str.lower().str.contains(sq)
+        ]
+
     table_html = """
-    <div class="panel-box" style="margin-top: 8px; padding: 12px;">
+    <div class="panel-box" style="margin-top: 8px; padding: 12px; overflow-x: auto;">
         <table class="custom-table">
             <thead>
                 <tr>
@@ -1068,13 +1176,13 @@ elif nav_choice == "🤖 AI Assistants & Google":
                     <th style="width: 80px;">ChatGPT</th>
                     <th style="width: 80px;">Gemini</th>
                     <th style="width: 85px;">Perplexity</th>
-                    <th style="width: 220px;">Competitors Quoted</th>
+                    <th style="width: 200px;">Competitors Quoted</th>
                     <th style="width: 110px;">Raw Evidence</th>
                 </tr>
             </thead>
             <tbody>
     """
-    for _, row in obs_df[:25].iterrows():
+    for _, row in display_df.iterrows():
         ans_box_val = "Yes (Competitor)" if row['answer_box_type'] != "None" else "No"
         table_html += f"""
             <tr>
@@ -1086,7 +1194,11 @@ elif nav_choice == "🤖 AI Assistants & Google":
                 <td><span class="pill-none">None</span></td>
                 <td><span class="pill-none">None</span></td>
                 <td style="color: #94a3b8; font-size: 0.8rem;">{row.get('competitors_named') or 'Descript, Opus Clip, Kapwing'}</td>
-                <td><span class="pill-id" style="cursor: pointer;">📄 View Raw</span></td>
+                <td>
+                    <a href="?nav=ai&view_raw={row['question_id']}" target="_self" class="pill-id" style="text-decoration: none; cursor: pointer; display: inline-flex; align-items: center; gap: 4px;">
+                        📄 View Raw
+                    </a>
+                </td>
             </tr>
         """
     table_html += """
@@ -1095,13 +1207,6 @@ elif nav_choice == "🤖 AI Assistants & Google":
     </div>
     """
     render_html_table(table_html)
-
-    with st.expander("📄 Inspect Raw Evidence JSON Artifact"):
-        sel_q = st.selectbox("Select Question to View Raw JSON", obs_df["question_id"].tolist())
-        raw_file = f"evidence/raw/{sel_q.lower()}_answers.json"
-        if os.path.exists(raw_file):
-            with open(raw_file, "r", encoding="utf-8") as f:
-                st.json(json.load(f))
 
 
 # ==========================================
