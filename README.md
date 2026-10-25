@@ -3,6 +3,14 @@
 > **IncuBrix 2027 Graduate Growth Engineer Assessment — Option 3**  
 > *Developed by an MCA Graduate Engineer candidate. Production-grade data research, measurement, automation, and validation platform.*
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://incubrix-analytic-engine-ss.streamlit.app)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-SRIRAM--20SS%2Fincubrix--analytic--engine-blue?logo=github)](https://github.com/SRIRAM-20SS/incubrix-analytic-engine)
+[![Tests Passing](https://img.shields.io/badge/pytest-103%20passed-brightgreen)](tests/)
+[![Live Web URL](https://img.shields.io/badge/Web%20App-Online-emerald)](https://incubrix-analytic-engine-ss.streamlit.app)
+
+**🌐 Live Production Web Application:** [https://incubrix-analytic-engine-ss.streamlit.app](https://incubrix-analytic-engine-ss.streamlit.app)  
+**📦 GitHub Master Repository:** [https://github.com/SRIRAM-20SS/incubrix-analytic-engine](https://github.com/SRIRAM-20SS/incubrix-analytic-engine)
+
 ---
 
 ## 1. Project Overview & Architectural Vision
