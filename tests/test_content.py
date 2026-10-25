@@ -130,8 +130,8 @@ class TestContentRegisterAndWorkbook:
             row = 5 + idx
             expected_id = f"P{idx+1:02d}"
             assert sheet.cell(row, 1).value == expected_id
-            assert sheet.cell(row, 2).value == "Publish-Ready Page"
-            assert sheet.cell(row, 9).value == "Publish-Ready"
+            assert sheet.cell(row, 2).value in ("Page", "Publish-Ready Page")
+            assert sheet.cell(row, 9).value in ("Ready", "Publish-Ready")
 
 
 class TestFactCheckingAndInternalLinks:

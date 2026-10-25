@@ -1,0 +1,82 @@
+{
+  "question_id": "Q035",
+  "question": "Can AI translate English video captions into Spanish automatically?",
+  "intent": "Informational",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com/search?q=can+ai+translate+english+captions+to+spanish",
+  "market": "US",
+  "topic": "Auto Captions & Subtitles",
+  "priority": "Medium",
+  "notes": "Multilingual caption translation for global audience reach.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Answer box",
+    "quoted_source_url": "https://www.happyscribe.com/blog/translate-subtitles-ai/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Happy Scribe",
+        "Rask.ai",
+        "Veed.io",
+        "Descript"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Can AI translate English video captions into Spanish automatically?', citing top industry tools including Happy Scribe, Rask.ai, Veed.io, Descript. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Happy Scribe",
+        "Rask.ai",
+        "Veed.io"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Happy Scribe, Rask.ai, Veed.io, Descript. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Happy Scribe",
+        "Rask.ai",
+        "Veed.io",
+        "Descript"
+      ],
+      "cited_urls": [
+        "https://www.happyscribe.com/blog/translate-subtitles-ai/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.happyscribe.com/blog/translate-subtitles-ai/. Recommended Happy Scribe, Rask.ai, Veed.io, Descript."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Happy Scribe",
+        "Rask.ai",
+        "Veed.io",
+        "Descript"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Happy Scribe, Rask.ai, Veed.io, Descript."
+    }
+  },
+  "sha256_hash": "fdd33ebaaa1760a852ed1e050a89c6a874375c04942f957d251d8de5d1e9ba40"
+}

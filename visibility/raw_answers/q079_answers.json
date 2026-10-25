@@ -1,0 +1,82 @@
+{
+  "question_id": "Q079",
+  "question": "How to automatically delete watermark when reposting TikTok to Reels?",
+  "intent": "Informational",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com/search?q=automatically+delete+watermark+tiktok+to+reels",
+  "market": "US",
+  "topic": "Publishing Automation",
+  "priority": "High",
+  "notes": "Instagram algorithm suppresses videos containing TikTok watermarks.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Both",
+    "quoted_source_url": "https://snaptik.app/blog/how-to-remove-tiktok-watermark",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "SnapTik",
+        "Repurpose.io",
+        "MusicallyDown",
+        "Kapwing"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to automatically delete watermark when reposting TikTok to Reels?', citing top industry tools including SnapTik, Repurpose.io, MusicallyDown, Kapwing. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "SnapTik",
+        "Repurpose.io",
+        "MusicallyDown"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named SnapTik, Repurpose.io, MusicallyDown, Kapwing. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "SnapTik",
+        "Repurpose.io",
+        "MusicallyDown",
+        "Kapwing"
+      ],
+      "cited_urls": [
+        "https://snaptik.app/blog/how-to-remove-tiktok-watermark"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://snaptik.app/blog/how-to-remove-tiktok-watermark. Recommended SnapTik, Repurpose.io, MusicallyDown, Kapwing."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "SnapTik",
+        "Repurpose.io",
+        "MusicallyDown",
+        "Kapwing"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as SnapTik, Repurpose.io, MusicallyDown, Kapwing."
+    }
+  },
+  "sha256_hash": "a950212b8e888a209876a189fefe61d4b3937141541bf1733fbeac42384d3c5e"
+}

@@ -1,0 +1,82 @@
+{
+  "question_id": "Q020",
+  "question": "Best video clipping tools for educational course creators Singapore",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com.sg/search?q=best+video+clipping+tools+course+creators+singapore",
+  "market": "SG",
+  "topic": "AI Video Repurposing",
+  "priority": "Medium",
+  "notes": "Singapore/Southeast Asia creators repurposing cohort lectures.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: SG",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://techcollective.com/best-ai-tools-creators-asia/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "Loom",
+        "OpusClip",
+        "Camtasia"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Best video clipping tools for educational course creators Singapore', citing top industry tools including Descript, Loom, OpusClip, Camtasia. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "Loom",
+        "OpusClip"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Descript, Loom, OpusClip, Camtasia. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "Loom",
+        "OpusClip",
+        "Camtasia"
+      ],
+      "cited_urls": [
+        "https://techcollective.com/best-ai-tools-creators-asia/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://techcollective.com/best-ai-tools-creators-asia/. Recommended Descript, Loom, OpusClip, Camtasia."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "Loom",
+        "OpusClip",
+        "Camtasia"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Descript, Loom, OpusClip, Camtasia."
+    }
+  },
+  "sha256_hash": "1a5f7c7921d87ace02dc346db0cb3a2f2e02119ba718a527ea71ed2e331cffe4"
+}

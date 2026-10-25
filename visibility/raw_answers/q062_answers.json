@@ -1,0 +1,82 @@
+{
+  "question_id": "Q062",
+  "question": "Best Indian accent AI voiceover generator for explainer videos",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.co.in/search?q=best+indian+accent+ai+voiceover+generator",
+  "market": "IN",
+  "topic": "AI Voice & Audio",
+  "priority": "High",
+  "notes": "Authentic regional Indian accents (neutral, north, south) for corporate videos.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: IN",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://murf.ai/indian-accent-text-to-speech",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Murf.ai",
+        "ElevenLabs",
+        "Dubverse",
+        "Speechelo"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Best Indian accent AI voiceover generator for explainer videos', citing top industry tools including Murf.ai, ElevenLabs, Dubverse, Speechelo. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Murf.ai",
+        "ElevenLabs",
+        "Dubverse"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Murf.ai, ElevenLabs, Dubverse, Speechelo. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Murf.ai",
+        "ElevenLabs",
+        "Dubverse",
+        "Speechelo"
+      ],
+      "cited_urls": [
+        "https://murf.ai/indian-accent-text-to-speech"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://murf.ai/indian-accent-text-to-speech. Recommended Murf.ai, ElevenLabs, Dubverse, Speechelo."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Murf.ai",
+        "ElevenLabs",
+        "Dubverse",
+        "Speechelo"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Murf.ai, ElevenLabs, Dubverse, Speechelo."
+    }
+  },
+  "sha256_hash": "5d79ea586267a52a69345313f19d5ce7af314369235874bff1d5c3cbd8c2bd03"
+}

@@ -1053,14 +1053,14 @@ class PageGenerator:
             idx_num = int(p["page_id"].replace("P", ""))
 
             sheet.cell(row, 1, p["page_id"])
-            sheet.cell(row, 2, "Publish-Ready Page")
+            sheet.cell(row, 2, "Page")
             sheet.cell(row, 3, ", ".join(t["target_question_ids"]))
             sheet.cell(row, 4, m["seo_title"])
             sheet.cell(row, 5, f"outputs/pages/page_{idx_num:02d}.md")
             sheet.cell(row, 6, t["selection_rationale"])
             sheet.cell(row, 7, f"{t['content_type']} (Schema: Article, BreadcrumbList, HowTo/FAQ)")
             sheet.cell(row, 8, "OpenAI Whisper Docs, YouTube Shorts Specs, Instagram Graph API, WCAG 2.1")
-            sheet.cell(row, 9, "Publish-Ready")
+            sheet.cell(row, 9, "Ready")
 
         wb.save(workbook_path)
         return workbook_path

@@ -1,0 +1,82 @@
+{
+  "question_id": "Q069",
+  "question": "How to auto generate platform specific captions and hashtags with AI?",
+  "intent": "Informational",
+  "source_type": "People Also Ask",
+  "source_url": "https://www.google.com/search?q=auto+generate+platform+specific+captions+hashtags+ai",
+  "market": "US",
+  "topic": "Publishing Automation",
+  "priority": "High",
+  "notes": "Tailoring tone: professional on LinkedIn vs energetic on TikTok.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://sproutsocial.com/insights/ai-social-media-captions/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Sprout Social",
+        "Copy.ai",
+        "Jasper",
+        "Buffer"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to auto generate platform specific captions and hashtags with AI?', citing top industry tools including Sprout Social, Copy.ai, Jasper, Buffer. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Sprout Social",
+        "Copy.ai",
+        "Jasper"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Sprout Social, Copy.ai, Jasper, Buffer. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Sprout Social",
+        "Copy.ai",
+        "Jasper",
+        "Buffer"
+      ],
+      "cited_urls": [
+        "https://sproutsocial.com/insights/ai-social-media-captions/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://sproutsocial.com/insights/ai-social-media-captions/. Recommended Sprout Social, Copy.ai, Jasper, Buffer."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Sprout Social",
+        "Copy.ai",
+        "Jasper",
+        "Buffer"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Sprout Social, Copy.ai, Jasper, Buffer."
+    }
+  },
+  "sha256_hash": "328d07a47018cddc90c7a698b8fbf01a6fec152ebecc7bb4c2ca40321ec31c21"
+}

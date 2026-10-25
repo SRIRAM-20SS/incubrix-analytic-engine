@@ -1,0 +1,82 @@
+{
+  "question_id": "Q076",
+  "question": "How to automate video review and client approval before social publishing?",
+  "intent": "Informational",
+  "source_type": "YouTube Creator Community",
+  "source_url": "https://support.google.com/youtube/community-guide/client-approval-workflow-video",
+  "market": "US",
+  "topic": "Publishing Automation",
+  "priority": "High",
+  "notes": "Agencies need client sign-off before automated distribution.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://frame.io/blog/video-collaboration-agency-workflow/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Frame.io",
+        "Planable",
+        "Filestage",
+        "ContentCal"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to automate video review and client approval before social publishing?', citing top industry tools including Frame.io, Planable, Filestage, ContentCal. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Frame.io",
+        "Planable",
+        "Filestage"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Frame.io, Planable, Filestage, ContentCal. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Frame.io",
+        "Planable",
+        "Filestage",
+        "ContentCal"
+      ],
+      "cited_urls": [
+        "https://frame.io/blog/video-collaboration-agency-workflow/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://frame.io/blog/video-collaboration-agency-workflow/. Recommended Frame.io, Planable, Filestage, ContentCal."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Frame.io",
+        "Planable",
+        "Filestage",
+        "ContentCal"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Frame.io, Planable, Filestage, ContentCal."
+    }
+  },
+  "sha256_hash": "fb8c63a330ca4950d0db119acf7a4b1151738f8cf93f0adf366b229acf06b262"
+}

@@ -1,0 +1,82 @@
+{
+  "question_id": "Q095",
+  "question": "Best budget video editing suite for bootstrapping solo creators Singapore",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com.sg/search?q=best+budget+video+editing+suite+solo+creators+singapore",
+  "market": "SG",
+  "topic": "Tool Comparisons",
+  "priority": "Medium",
+  "notes": "Solopreneur creators evaluating monthly subscription stacks.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: SG",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://vulcanpost.com/best-video-editing-apps-budget-creators/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "CapCut",
+        "DaVinci Resolve",
+        "Veed.io",
+        "OpusClip"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Best budget video editing suite for bootstrapping solo creators Singapore', citing top industry tools including CapCut, DaVinci Resolve, Veed.io, OpusClip. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "CapCut",
+        "DaVinci Resolve",
+        "Veed.io"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named CapCut, DaVinci Resolve, Veed.io, OpusClip. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "CapCut",
+        "DaVinci Resolve",
+        "Veed.io",
+        "OpusClip"
+      ],
+      "cited_urls": [
+        "https://vulcanpost.com/best-video-editing-apps-budget-creators/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://vulcanpost.com/best-video-editing-apps-budget-creators/. Recommended CapCut, DaVinci Resolve, Veed.io, OpusClip."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "CapCut",
+        "DaVinci Resolve",
+        "Veed.io",
+        "OpusClip"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as CapCut, DaVinci Resolve, Veed.io, OpusClip."
+    }
+  },
+  "sha256_hash": "1d9a22e0dac4e08d260f1e643d8b0353aa89b1cfcc3531b573ae3c4d578bc97c"
+}

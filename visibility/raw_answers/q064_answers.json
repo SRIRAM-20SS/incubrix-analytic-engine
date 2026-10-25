@@ -1,0 +1,82 @@
+{
+  "question_id": "Q064",
+  "question": "Can AI lip sync translate my voice to Japanese while preserving my tone?",
+  "intent": "Informational",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com/search?q=ai+lip+sync+translate+voice+to+japanese+tone",
+  "market": "US",
+  "topic": "AI Voice & Audio",
+  "priority": "High",
+  "notes": "HeyGen viral showcase made this a top searched term.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Both",
+    "quoted_source_url": "https://www.heygen.com/article/ai-video-translation-lip-sync",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "HeyGen",
+        "Rask.ai",
+        "ElevenLabs",
+        "DeepDub"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Can AI lip sync translate my voice to Japanese while preserving my tone?', citing top industry tools including HeyGen, Rask.ai, ElevenLabs, DeepDub. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "HeyGen",
+        "Rask.ai",
+        "ElevenLabs"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named HeyGen, Rask.ai, ElevenLabs, DeepDub. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "HeyGen",
+        "Rask.ai",
+        "ElevenLabs",
+        "DeepDub"
+      ],
+      "cited_urls": [
+        "https://www.heygen.com/article/ai-video-translation-lip-sync"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.heygen.com/article/ai-video-translation-lip-sync. Recommended HeyGen, Rask.ai, ElevenLabs, DeepDub."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "HeyGen",
+        "Rask.ai",
+        "ElevenLabs",
+        "DeepDub"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as HeyGen, Rask.ai, ElevenLabs, DeepDub."
+    }
+  },
+  "sha256_hash": "9c6644a6b19104947f7a29b72ebf13ca8c6e69603e18e9bc1ded7c3724fb793a"
+}

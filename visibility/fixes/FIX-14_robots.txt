@@ -1,0 +1,23 @@
+# IncuBrix Robots.txt Specification
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Explicitly Allow Generative AI Search Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://incubrix.com/sitemap.xml

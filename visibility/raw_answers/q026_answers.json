@@ -1,0 +1,82 @@
+{
+  "question_id": "Q026",
+  "question": "AI tool to split screen video podcast with two remote hosts",
+  "intent": "Informational",
+  "source_type": "People Also Ask",
+  "source_url": "https://www.google.com/search?q=ai+tool+split+screen+video+podcast+two+hosts",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "High",
+  "notes": "Dynamic split screen layout (top/bottom) is highly desired.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Answer box",
+    "quoted_source_url": "https://riverside.fm/blog/split-screen-podcast-editing",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Riverside.fm",
+        "OpusClip",
+        "AutoPod",
+        "Submagic"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'AI tool to split screen video podcast with two remote hosts', citing top industry tools including Riverside.fm, OpusClip, AutoPod, Submagic. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Riverside.fm",
+        "OpusClip",
+        "AutoPod"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Riverside.fm, OpusClip, AutoPod, Submagic. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Riverside.fm",
+        "OpusClip",
+        "AutoPod",
+        "Submagic"
+      ],
+      "cited_urls": [
+        "https://riverside.fm/blog/split-screen-podcast-editing"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://riverside.fm/blog/split-screen-podcast-editing. Recommended Riverside.fm, OpusClip, AutoPod, Submagic."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Riverside.fm",
+        "OpusClip",
+        "AutoPod",
+        "Submagic"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Riverside.fm, OpusClip, AutoPod, Submagic."
+    }
+  },
+  "sha256_hash": "2ca12ccd0ef984deab9a29932307c2825fb47621ef80d9bfa9f65e24312c3d90"
+}

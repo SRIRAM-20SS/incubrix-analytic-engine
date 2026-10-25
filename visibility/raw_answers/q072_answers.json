@@ -1,0 +1,82 @@
+{
+  "question_id": "Q072",
+  "question": "Best social media scheduler with AI engagement analytics India",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.co.in/search?q=best+social+media+scheduler+ai+analytics+india",
+  "market": "IN",
+  "topic": "Publishing Automation",
+  "priority": "Medium",
+  "notes": "SocialPilot is prominent in India; cost and local analytics valued.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: IN",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://www.socialpilot.co/blog/social-media-scheduling-tools-india",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "SocialPilot",
+        "Buffer",
+        "Hootsuite",
+        "Crowdfire"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Best social media scheduler with AI engagement analytics India', citing top industry tools including SocialPilot, Buffer, Hootsuite, Crowdfire. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "SocialPilot",
+        "Buffer",
+        "Hootsuite"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named SocialPilot, Buffer, Hootsuite, Crowdfire. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "SocialPilot",
+        "Buffer",
+        "Hootsuite",
+        "Crowdfire"
+      ],
+      "cited_urls": [
+        "https://www.socialpilot.co/blog/social-media-scheduling-tools-india"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.socialpilot.co/blog/social-media-scheduling-tools-india. Recommended SocialPilot, Buffer, Hootsuite, Crowdfire."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "SocialPilot",
+        "Buffer",
+        "Hootsuite",
+        "Crowdfire"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as SocialPilot, Buffer, Hootsuite, Crowdfire."
+    }
+  },
+  "sha256_hash": "c4ff779319c6d8b2b3c9fc5421d6801f798a36f6f2a6fe0e96038fbd7cfc7f4f"
+}

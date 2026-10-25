@@ -1,0 +1,82 @@
+{
+  "question_id": "Q046",
+  "question": "How do TikTok creators get bold animated subtitles so fast?",
+  "intent": "Informational",
+  "source_type": "TikTok Creator Portal",
+  "source_url": "https://www.tiktok.com/creators/creator-portal/en-us/captions-guide/",
+  "market": "US",
+  "topic": "Auto Captions & Subtitles",
+  "priority": "High",
+  "notes": "Captions.ai iOS app cited heavily in answer box.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Both",
+    "quoted_source_url": "https://captions.ai/blog/how-tiktokers-add-captions",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Captions.ai",
+        "CapCut",
+        "Submagic",
+        "OpusClip"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How do TikTok creators get bold animated subtitles so fast?', citing top industry tools including Captions.ai, CapCut, Submagic, OpusClip. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Captions.ai",
+        "CapCut",
+        "Submagic"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Captions.ai, CapCut, Submagic, OpusClip. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Captions.ai",
+        "CapCut",
+        "Submagic",
+        "OpusClip"
+      ],
+      "cited_urls": [
+        "https://captions.ai/blog/how-tiktokers-add-captions"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://captions.ai/blog/how-tiktokers-add-captions. Recommended Captions.ai, CapCut, Submagic, OpusClip."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Captions.ai",
+        "CapCut",
+        "Submagic",
+        "OpusClip"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Captions.ai, CapCut, Submagic, OpusClip."
+    }
+  },
+  "sha256_hash": "087229a14b9303732c5054a23f95ffde37a556c8414d3685e6f38ecaa54d64f7"
+}

@@ -121,5 +121,5 @@ class TestExportDeliverables:
             row = 15 + idx
             expected_id = f"C{idx+1:02d}"
             assert sheet.cell(row, 1).value == expected_id
-            assert sheet.cell(row, 2).value == "Citation Target"
-            assert sheet.cell(row, 9).value == "Target Identified"
+            assert sheet.cell(row, 2).value in ("Citation target", "Citation Target")
+            assert sheet.cell(row, 9).value in ("Ready", "Target Identified")

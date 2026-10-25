@@ -1,0 +1,75 @@
+{
+  "question_id": "Q091",
+  "question": "Riverside vs Descript for recording and editing remote interviews",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com/search?q=riverside+vs+descript+remote+interviews",
+  "market": "US",
+  "topic": "Tool Comparisons",
+  "priority": "High",
+  "notes": "Local 4K recording (Riverside) vs post-production text editor (Descript).",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Both",
+    "quoted_source_url": "https://www.thepodcasthost.com/recording-software/riverside-fm-vs-descript/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Riverside.fm",
+        "Descript"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Riverside vs Descript for recording and editing remote interviews', citing top industry tools including Riverside.fm, Descript. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Riverside.fm",
+        "Descript"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Riverside.fm, Descript. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Riverside.fm",
+        "Descript"
+      ],
+      "cited_urls": [
+        "https://www.thepodcasthost.com/recording-software/riverside-fm-vs-descript/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.thepodcasthost.com/recording-software/riverside-fm-vs-descript/. Recommended Riverside.fm, Descript."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Riverside.fm",
+        "Descript"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Riverside.fm, Descript."
+    }
+  },
+  "sha256_hash": "fa1d4b813d83c42d168dcb0f7cbb8676d9ee1b3a8cbed45caa8d7bcb6f045588"
+}

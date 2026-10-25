@@ -1,0 +1,82 @@
+{
+  "question_id": "Q010",
+  "question": "How to make 30 shorts from one podcast episode in under an hour?",
+  "intent": "Informational",
+  "source_type": "Reddit r/NewTubers",
+  "source_url": "https://www.reddit.com/r/NewTubers/comments/batch_produce_30_shorts_one_podcast/",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "High",
+  "notes": "Batch repurposing volume is top query for agency and solo creators.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://influencermarketinghub.com/ai-video-repurposing-tools/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "OpusClip",
+        "Vidyo.ai",
+        "Veed.io",
+        "Munch"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to make 30 shorts from one podcast episode in under an hour?', citing top industry tools including OpusClip, Vidyo.ai, Veed.io, Munch. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "OpusClip",
+        "Vidyo.ai",
+        "Veed.io"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named OpusClip, Vidyo.ai, Veed.io, Munch. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "OpusClip",
+        "Vidyo.ai",
+        "Veed.io",
+        "Munch"
+      ],
+      "cited_urls": [
+        "https://influencermarketinghub.com/ai-video-repurposing-tools/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://influencermarketinghub.com/ai-video-repurposing-tools/. Recommended OpusClip, Vidyo.ai, Veed.io, Munch."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "OpusClip",
+        "Vidyo.ai",
+        "Veed.io",
+        "Munch"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as OpusClip, Vidyo.ai, Veed.io, Munch."
+    }
+  },
+  "sha256_hash": "c1ff7f02250dfae432ebe7575f944c3b4270e286d0fe64329de408c2b965ec89"
+}

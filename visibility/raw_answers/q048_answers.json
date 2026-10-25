@@ -1,0 +1,82 @@
+{
+  "question_id": "Q048",
+  "question": "How to auto censor curse words in video captions with bleeps?",
+  "intent": "Informational",
+  "source_type": "People Also Ask",
+  "source_url": "https://www.google.com/search?q=auto+censor+curse+words+video+captions+bleeps",
+  "market": "US",
+  "topic": "Auto Captions & Subtitles",
+  "priority": "Medium",
+  "notes": "Monetization guidelines on YouTube punish uncensored profanity in first 30 seconds.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Answer box",
+    "quoted_source_url": "https://www.descript.com/features/bleep-censor-audio",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "CapCut",
+        "Submagic",
+        "Riverside"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to auto censor curse words in video captions with bleeps?', citing top industry tools including Descript, CapCut, Submagic, Riverside. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "CapCut",
+        "Submagic"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Descript, CapCut, Submagic, Riverside. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "CapCut",
+        "Submagic",
+        "Riverside"
+      ],
+      "cited_urls": [
+        "https://www.descript.com/features/bleep-censor-audio"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.descript.com/features/bleep-censor-audio. Recommended Descript, CapCut, Submagic, Riverside."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "CapCut",
+        "Submagic",
+        "Riverside"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Descript, CapCut, Submagic, Riverside."
+    }
+  },
+  "sha256_hash": "26bee78355a526829a05a8830d823678526cf8613c61bf6434b3a10d8e7e89aa"
+}

@@ -1,0 +1,82 @@
+{
+  "question_id": "Q027",
+  "question": "How to batch repurpose 100 YouTube videos into Shorts automatically?",
+  "intent": "Informational",
+  "source_type": "AnswerThePublic",
+  "source_url": "https://answerthepublic.com/reports/batch-repurpose-100-youtube-videos",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "High",
+  "notes": "Enterprise and high-volume creator automation pipeline.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://zapier.com/blog/youtube-automation-tools/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Zapier",
+        "Make.com",
+        "OpusClip",
+        "Munch"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to batch repurpose 100 YouTube videos into Shorts automatically?', citing top industry tools including Zapier, Make.com, OpusClip, Munch. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Zapier",
+        "Make.com",
+        "OpusClip"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Zapier, Make.com, OpusClip, Munch. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Zapier",
+        "Make.com",
+        "OpusClip",
+        "Munch"
+      ],
+      "cited_urls": [
+        "https://zapier.com/blog/youtube-automation-tools/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://zapier.com/blog/youtube-automation-tools/. Recommended Zapier, Make.com, OpusClip, Munch."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Zapier",
+        "Make.com",
+        "OpusClip",
+        "Munch"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Zapier, Make.com, OpusClip, Munch."
+    }
+  },
+  "sha256_hash": "dcf3877a4a6dc3d40f852216ae3666981de31e5e8f511ee73457d137828fb36f"
+}

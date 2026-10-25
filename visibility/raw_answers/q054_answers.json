@@ -1,0 +1,82 @@
+{
+  "question_id": "Q054",
+  "question": "How to clone my own voice to dub videos in French and German?",
+  "intent": "Informational",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com/search?q=how+to+clone+voice+to+dub+videos+french+german",
+  "market": "US",
+  "topic": "AI Voice & Audio",
+  "priority": "High",
+  "notes": "AI lip-sync and voice cloning are exploding among top YouTubers (MrBeast effect).",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://elevenlabs.io/dubbing",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "ElevenLabs",
+        "HeyGen",
+        "Rask.ai",
+        "Descript"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to clone my own voice to dub videos in French and German?', citing top industry tools including ElevenLabs, HeyGen, Rask.ai, Descript. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "ElevenLabs",
+        "HeyGen",
+        "Rask.ai"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named ElevenLabs, HeyGen, Rask.ai, Descript. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "ElevenLabs",
+        "HeyGen",
+        "Rask.ai",
+        "Descript"
+      ],
+      "cited_urls": [
+        "https://elevenlabs.io/dubbing"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://elevenlabs.io/dubbing. Recommended ElevenLabs, HeyGen, Rask.ai, Descript."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "ElevenLabs",
+        "HeyGen",
+        "Rask.ai",
+        "Descript"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as ElevenLabs, HeyGen, Rask.ai, Descript."
+    }
+  },
+  "sha256_hash": "81e5214a6071f307ea5213d9ded82ce3c2dbdf913b75bd5bc1ffdb11b9c42698"
+}

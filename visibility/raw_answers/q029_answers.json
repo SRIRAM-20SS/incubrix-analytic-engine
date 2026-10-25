@@ -1,0 +1,82 @@
+{
+  "question_id": "Q029",
+  "question": "How to edit video by editing text transcript using AI?",
+  "intent": "Informational",
+  "source_type": "People Also Ask",
+  "source_url": "https://www.google.com/search?q=how+to+edit+video+by+editing+text+transcript",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "High",
+  "notes": "Descript owns this category in search results.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Answer box",
+    "quoted_source_url": "https://www.descript.com/blog/text-based-video-editing",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "Premiere Pro",
+        "Riverside",
+        "CapCut"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to edit video by editing text transcript using AI?', citing top industry tools including Descript, Premiere Pro, Riverside, CapCut. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "Premiere Pro",
+        "Riverside"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Descript, Premiere Pro, Riverside, CapCut. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "Premiere Pro",
+        "Riverside",
+        "CapCut"
+      ],
+      "cited_urls": [
+        "https://www.descript.com/blog/text-based-video-editing"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.descript.com/blog/text-based-video-editing. Recommended Descript, Premiere Pro, Riverside, CapCut."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "Premiere Pro",
+        "Riverside",
+        "CapCut"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Descript, Premiere Pro, Riverside, CapCut."
+    }
+  },
+  "sha256_hash": "4c12f0f706aeede6f0dc6ea366ef65a84e517557b5b80703701d38dd621afd33"
+}

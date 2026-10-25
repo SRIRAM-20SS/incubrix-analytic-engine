@@ -1,0 +1,82 @@
+{
+  "question_id": "Q017",
+  "question": "How to extract TikTok clips from Twitch VODs automatically?",
+  "intent": "Informational",
+  "source_type": "Reddit r/Twitch",
+  "source_url": "https://www.reddit.com/r/Twitch/comments/auto_clip_twitch_vods_to_tiktok/",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "Medium",
+  "notes": "Streamers seeking direct Twitch VOD URL import.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://crossclip.streamlabs.com/blog/how-to-clip-twitch-vods",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Cross Clip",
+        "Streamladder",
+        "Eklipse",
+        "OpusClip"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to extract TikTok clips from Twitch VODs automatically?', citing top industry tools including Cross Clip, Streamladder, Eklipse, OpusClip. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Cross Clip",
+        "Streamladder",
+        "Eklipse"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Cross Clip, Streamladder, Eklipse, OpusClip. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Cross Clip",
+        "Streamladder",
+        "Eklipse",
+        "OpusClip"
+      ],
+      "cited_urls": [
+        "https://crossclip.streamlabs.com/blog/how-to-clip-twitch-vods"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://crossclip.streamlabs.com/blog/how-to-clip-twitch-vods. Recommended Cross Clip, Streamladder, Eklipse, OpusClip."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Cross Clip",
+        "Streamladder",
+        "Eklipse",
+        "OpusClip"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Cross Clip, Streamladder, Eklipse, OpusClip."
+    }
+  },
+  "sha256_hash": "6de9c4ccbb98a230b7fb2984ce9cc0ee605b7abafc715d392c1152c6248df08a"
+}

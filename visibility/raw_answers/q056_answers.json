@@ -1,0 +1,82 @@
+{
+  "question_id": "Q056",
+  "question": "How to automatically level audio volume across multiple podcast speakers?",
+  "intent": "Informational",
+  "source_type": "People Also Ask",
+  "source_url": "https://www.google.com/search?q=automatically+level+audio+volume+across+podcast+speakers",
+  "market": "US",
+  "topic": "AI Voice & Audio",
+  "priority": "Medium",
+  "notes": "Auto-leveling prevents jarring volume shifts between quiet and loud speakers.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Answer box",
+    "quoted_source_url": "https://auphonic.com/blog/multitrack-adaptive-leveler/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Auphonic",
+        "Descript",
+        "Adobe Audition",
+        "iZotope"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to automatically level audio volume across multiple podcast speakers?', citing top industry tools including Auphonic, Descript, Adobe Audition, iZotope. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Auphonic",
+        "Descript",
+        "Adobe Audition"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Auphonic, Descript, Adobe Audition, iZotope. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Auphonic",
+        "Descript",
+        "Adobe Audition",
+        "iZotope"
+      ],
+      "cited_urls": [
+        "https://auphonic.com/blog/multitrack-adaptive-leveler/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://auphonic.com/blog/multitrack-adaptive-leveler/. Recommended Auphonic, Descript, Adobe Audition, iZotope."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Auphonic",
+        "Descript",
+        "Adobe Audition",
+        "iZotope"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Auphonic, Descript, Adobe Audition, iZotope."
+    }
+  },
+  "sha256_hash": "dd35988f05688e31facf044f546875ee6472f7b6190d903dba0c51e53a53f83e"
+}

@@ -554,7 +554,7 @@ def populate_workbook_fixes(
         sheet.cell(row, 6, f["file_artifact"])
         sheet.cell(row, 7, f["validation_method"])
         sheet.cell(row, 8, "Yes")
-        sheet.cell(row, 9, f["priority"])
+        sheet.cell(row, 9, "High" if f["priority"] in ("High", "Critical") else f["priority"])
         sheet.cell(row, 10, "Low" if f["priority"] in ("High", "Critical") else "Medium")
 
     wb.save(workbook_path)

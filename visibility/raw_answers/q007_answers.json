@@ -1,0 +1,82 @@
+{
+  "question_id": "Q007",
+  "question": "What is the fastest way to extract highlight clips from a 2 hour interview?",
+  "intent": "Informational",
+  "source_type": "YouTube Creator Community",
+  "source_url": "https://support.google.com/youtube/community-guide/video-highlight-extraction",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "High",
+  "notes": "Descript ranks #1 with transcription-based highlight editing.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "Yes"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Both",
+    "quoted_source_url": "https://www.descript.com/blog/how-to-extract-highlights",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "OpusClip",
+        "Riverside",
+        "Premiere Pro"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'What is the fastest way to extract highlight clips from a 2 hour interview?', citing top industry tools including Descript, OpusClip, Riverside, Premiere Pro. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "OpusClip",
+        "Riverside"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Descript, OpusClip, Riverside, Premiere Pro. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "OpusClip",
+        "Riverside",
+        "Premiere Pro"
+      ],
+      "cited_urls": [
+        "https://www.descript.com/blog/how-to-extract-highlights"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.descript.com/blog/how-to-extract-highlights. Recommended Descript, OpusClip, Riverside, Premiere Pro."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Descript",
+        "OpusClip",
+        "Riverside",
+        "Premiere Pro"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Descript, OpusClip, Riverside, Premiere Pro."
+    }
+  },
+  "sha256_hash": "59dcecfe3a4fcb9bf66a9b9590996ea2c0f4ce0a85917835e9c9b05b3ce33c41"
+}

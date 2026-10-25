@@ -68,10 +68,19 @@ INCUBRIX ANALYTIC ENGINE/
 │   ├── IncuBrix_2027_Growth_Engineer_Option_3_AEO_SEO_GEO.pdf
 │   ├── IncuBrixPSG2027GraduateBriefingOct2026pptx.pdf
 │   └── IncuBrix_2027_Growth_Engineer_Option_3_AEO_SEO_GEO_Submission_Workbook.xlsx
-├── submission/                         # Submission-ready artifacts
+├── submission/                         # Submission item 1: Completed workbook & mirrored outputs
 │   ├── IncuBrix_2027_Growth_Engineer_Option_3_AEO_SEO_GEO_Submission_Workbook.xlsx
-│   ├── fixes/                          # Mirrored Phase 3 technical fix artifacts
-│   └── content/                        # Mirrored Phase 4 publish-ready markdown pages
+│   ├── citation_targets.csv            # 30 prioritized third-party citation targets
+│   ├── fixes/                          # Mirrored 20 technical fix code artifacts
+│   ├── content/                        # Mirrored 10 publish-ready markdown pages
+│   └── screenshots/                    # Dashboard UI and audit verification screenshots
+├── visibility/                         # Submission item 2: Main output directory (as per spec)
+│   ├── visibility.csv                  # 100-row workbook-compatible baseline export
+│   ├── raw_answers/                    # 100 raw JSON files with provider responses
+│   ├── screenshots/                    # Verification screenshots
+│   ├── fixes/                          # 20 technical fixes with code artifacts + audit report
+│   ├── pages/                          # 10 publish-ready markdown pages + content register
+│   └── citation_plan.csv               # 30 prioritized third-party citation targets
 ├── src/
 │   ├── research/                       # Phase 1: Sourcing, deduplication & validation
 │   ├── visibility/                     # Phase 2: Baseline collection & adapters
@@ -91,7 +100,8 @@ INCUBRIX ANALYTIC ENGINE/
 │   ├── test_seo_audit.py               # Phase 3: 15 unit tests
 │   ├── test_content.py                 # Phase 4: 15 unit tests
 │   ├── test_citations.py               # Phase 5: 11 unit tests
-│   └── test_engine.py                  # Phase 6: 15 unit tests (Total: 96 passing tests)
+│   ├── test_engine.py                  # Phase 6: 15 unit tests
+│   └── test_submission.py              # Phase 7: 7 integration tests (Total: 103 passing tests)
 ├── app.py                              # Phase 6: 10-page interactive Streamlit dashboard
 ├── run_engine.py                       # Phase 6: Unified CLI orchestrator
 └── requirements.txt                    # Project dependencies

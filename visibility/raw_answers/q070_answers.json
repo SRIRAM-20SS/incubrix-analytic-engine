@@ -1,0 +1,82 @@
+{
+  "question_id": "Q070",
+  "question": "What is the best CreatorOps tool for managing team content workflow Singapore?",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com.sg/search?q=best+creatorops+tool+managing+team+content+workflow+singapore",
+  "market": "SG",
+  "topic": "Publishing Automation",
+  "priority": "High",
+  "notes": "CreatorOps is IncuBrix's core category definition.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: SG",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://e27.co/creator-economy-tools-southeast-asia/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Notion",
+        "ClickUp",
+        "Buffer",
+        "Planable"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'What is the best CreatorOps tool for managing team content workflow Singapore?', citing top industry tools including Notion, ClickUp, Buffer, Planable. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Notion",
+        "ClickUp",
+        "Buffer"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Notion, ClickUp, Buffer, Planable. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Notion",
+        "ClickUp",
+        "Buffer",
+        "Planable"
+      ],
+      "cited_urls": [
+        "https://e27.co/creator-economy-tools-southeast-asia/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://e27.co/creator-economy-tools-southeast-asia/. Recommended Notion, ClickUp, Buffer, Planable."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Notion",
+        "ClickUp",
+        "Buffer",
+        "Planable"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Notion, ClickUp, Buffer, Planable."
+    }
+  },
+  "sha256_hash": "137ff1c88e938514db1d07ee711abfb8172b178e7a800f5f181155ab7b1148a3"
+}

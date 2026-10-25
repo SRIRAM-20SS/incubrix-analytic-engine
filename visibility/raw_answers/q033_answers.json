@@ -1,0 +1,82 @@
+{
+  "question_id": "Q033",
+  "question": "How to generate 99% accurate Hindi subtitles for YouTube videos?",
+  "intent": "Informational",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.co.in/search?q=generate+accurate+hindi+subtitles+youtube",
+  "market": "IN",
+  "topic": "Auto Captions & Subtitles",
+  "priority": "High",
+  "notes": "Hinglish and Indic language accuracy is a massive differentiator in India.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: IN",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://www.animaker.com/blog/hindi-subtitles-generator/",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Animaker",
+        "Descript",
+        "Veed.io",
+        "Dubverse"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to generate 99% accurate Hindi subtitles for YouTube videos?', citing top industry tools including Animaker, Descript, Veed.io, Dubverse. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Animaker",
+        "Descript",
+        "Veed.io"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Animaker, Descript, Veed.io, Dubverse. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Animaker",
+        "Descript",
+        "Veed.io",
+        "Dubverse"
+      ],
+      "cited_urls": [
+        "https://www.animaker.com/blog/hindi-subtitles-generator/"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.animaker.com/blog/hindi-subtitles-generator/. Recommended Animaker, Descript, Veed.io, Dubverse."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Animaker",
+        "Descript",
+        "Veed.io",
+        "Dubverse"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Animaker, Descript, Veed.io, Dubverse."
+    }
+  },
+  "sha256_hash": "a9bd44d41789db746ab4972e305e444778d12021292e7d39d2acd83cb8c7ce6f"
+}

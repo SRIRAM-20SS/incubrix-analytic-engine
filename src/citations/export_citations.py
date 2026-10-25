@@ -199,14 +199,14 @@ def populate_workbook_tab_02c_citations(
         qids = ", ".join(t["related_question_ids"]) if isinstance(t["related_question_ids"], list) else t["related_question_ids"]
 
         sheet.cell(row, 1, t["target_id"])
-        sheet.cell(row, 2, "Citation Target")
+        sheet.cell(row, 2, "Citation target")
         sheet.cell(row, 3, qids)
         sheet.cell(row, 4, t["page_title"])
         sheet.cell(row, 5, t["page_url"])
         sheet.cell(row, 6, f"{t['page_relevance']} ({t['discovery_method']})")
         sheet.cell(row, 7, t["potential_inclusion_angle"])
         sheet.cell(row, 8, f"Publisher: {t['publisher_name']} | Competitors: {t['competing_brands_mentioned']}")
-        sheet.cell(row, 9, "Target Identified")
+        sheet.cell(row, 9, "Ready")
 
     wb.save(workbook_path)
     return workbook_path

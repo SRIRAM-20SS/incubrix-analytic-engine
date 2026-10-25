@@ -1,0 +1,82 @@
+{
+  "question_id": "Q008",
+  "question": "How to convert an audio podcast into animated audiogram videos?",
+  "intent": "Informational",
+  "source_type": "AnswerThePublic",
+  "source_url": "https://answerthepublic.com/reports/how-to-convert-audio-podcast-into-audiogram",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "Medium",
+  "notes": "Audio creators seeking visual waveform templates for Instagram.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "Answer box",
+    "quoted_source_url": "https://headliner.app/blog/how-to-make-podcast-audiogram",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Headliner",
+        "Wavve",
+        "Descript",
+        "Audiogram.com"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'How to convert an audio podcast into animated audiogram videos?', citing top industry tools including Headliner, Wavve, Descript, Audiogram.com. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Headliner",
+        "Wavve",
+        "Descript"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Headliner, Wavve, Descript, Audiogram.com. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Headliner",
+        "Wavve",
+        "Descript",
+        "Audiogram.com"
+      ],
+      "cited_urls": [
+        "https://headliner.app/blog/how-to-make-podcast-audiogram"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://headliner.app/blog/how-to-make-podcast-audiogram. Recommended Headliner, Wavve, Descript, Audiogram.com."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Headliner",
+        "Wavve",
+        "Descript",
+        "Audiogram.com"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Headliner, Wavve, Descript, Audiogram.com."
+    }
+  },
+  "sha256_hash": "42dc9eeccf7553f5bc08a82cb2281cd0bf7122089acb4d07967a13d90cbd964f"
+}

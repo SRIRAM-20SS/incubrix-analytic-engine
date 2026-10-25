@@ -1,0 +1,82 @@
+{
+  "question_id": "Q022",
+  "question": "Best AI software to reframe 4K horizontal video into 1080x1920 vertical",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com/search?q=best+ai+software+reframe+4k+horizontal+to+vertical",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "Medium",
+  "notes": "Technical quality preservation (4K downsampling) query.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://filmora.wondershare.com/video-editing-tips/ai-smart-reframe.html",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Filmora",
+        "DaVinci Resolve",
+        "Premiere Pro",
+        "OpusClip"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Best AI software to reframe 4K horizontal video into 1080x1920 vertical', citing top industry tools including Filmora, DaVinci Resolve, Premiere Pro, OpusClip. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Filmora",
+        "DaVinci Resolve",
+        "Premiere Pro"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Filmora, DaVinci Resolve, Premiere Pro, OpusClip. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Filmora",
+        "DaVinci Resolve",
+        "Premiere Pro",
+        "OpusClip"
+      ],
+      "cited_urls": [
+        "https://filmora.wondershare.com/video-editing-tips/ai-smart-reframe.html"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://filmora.wondershare.com/video-editing-tips/ai-smart-reframe.html. Recommended Filmora, DaVinci Resolve, Premiere Pro, OpusClip."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Filmora",
+        "DaVinci Resolve",
+        "Premiere Pro",
+        "OpusClip"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Filmora, DaVinci Resolve, Premiere Pro, OpusClip."
+    }
+  },
+  "sha256_hash": "42675afba7d72e56e471e2e4cdc3f4ead83ce57f212da3f4bb0ece35295450ab"
+}

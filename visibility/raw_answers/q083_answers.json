@@ -1,0 +1,84 @@
+{
+  "question_id": "Q083",
+  "question": "Best AI video editing software for beginners 2026",
+  "intent": "Comparison",
+  "source_type": "Google Search Suggestion",
+  "source_url": "https://www.google.com/search?q=best+ai+video+editing+software+for+beginners",
+  "market": "US",
+  "topic": "Tool Comparisons",
+  "priority": "High",
+  "notes": "Massive beginner search volume; PCMag roundup dominates.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://www.pcmag.com/picks/the-best-video-editing-software",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "CapCut",
+        "Filmora",
+        "InVideo",
+        "Descript",
+        "Clipchamp"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Best AI video editing software for beginners 2026', citing top industry tools including CapCut, Filmora, InVideo, Descript, Clipchamp. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "CapCut",
+        "Filmora",
+        "InVideo"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named CapCut, Filmora, InVideo, Descript, Clipchamp. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "CapCut",
+        "Filmora",
+        "InVideo",
+        "Descript",
+        "Clipchamp"
+      ],
+      "cited_urls": [
+        "https://www.pcmag.com/picks/the-best-video-editing-software"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://www.pcmag.com/picks/the-best-video-editing-software. Recommended CapCut, Filmora, InVideo, Descript, Clipchamp."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "CapCut",
+        "Filmora",
+        "InVideo",
+        "Descript"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as CapCut, Filmora, InVideo, Descript, Clipchamp."
+    }
+  },
+  "sha256_hash": "20cd3fb982c148aca9a3fec21e5b40c0d277d1f2fe94e98d8e65853d7f082079"
+}

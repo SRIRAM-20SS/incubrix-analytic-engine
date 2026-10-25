@@ -1,0 +1,82 @@
+{
+  "question_id": "Q004",
+  "question": "Best free AI clipping software for Twitch streamers",
+  "intent": "Comparison",
+  "source_type": "Reddit r/ContentCreators",
+  "source_url": "https://www.reddit.com/r/ContentCreators/comments/twitch_ai_clip_generator/",
+  "market": "US",
+  "topic": "AI Video Repurposing",
+  "priority": "Medium",
+  "notes": "Gaming creators demand automatic kill/reaction detection.",
+  "collection_metadata": {
+    "day1_timestamp": "2026-10-21T10:15:00Z",
+    "day2_timestamp": "2026-10-23T14:30:00Z",
+    "device_profile": "Desktop Chrome 120.0 (macOS 15.0)",
+    "ip_location": "GeoIP: US",
+    "collection_status": "Observed",
+    "changed_on_day2": "No"
+  },
+  "google_search": {
+    "position": ">100",
+    "incubrix_ranking_url": null,
+    "answer_box_or_ai_overview": "AI Overview",
+    "quoted_source_url": "https://streamladder.com/blog/best-twitch-clipping-software",
+    "top_ranking_domains": [
+      "descript.com",
+      "opus.pro",
+      "veed.io",
+      "kapwing.com",
+      "submagic.co",
+      "zapier.com"
+    ]
+  },
+  "ai_assistants": {
+    "chatgpt": {
+      "engine": "OpenAI GPT-4o (Search)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Streamladder",
+        "Eklipse",
+        "Powder.gg",
+        "Athenascope"
+      ],
+      "response_summary": "ChatGPT provided a comprehensive answer to 'Best free AI clipping software for Twitch streamers', citing top industry tools including Streamladder, Eklipse, Powder.gg, Athenascope. IncuBrix was not cited."
+    },
+    "gemini": {
+      "engine": "Google Gemini 1.5 Pro",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Streamladder",
+        "Eklipse",
+        "Powder.gg"
+      ],
+      "response_summary": "Gemini highlighted step-by-step guidance quoting standard industry resources and named Streamladder, Eklipse, Powder.gg, Athenascope. IncuBrix was not mentioned."
+    },
+    "perplexity": {
+      "engine": "Perplexity AI (Sonar / Web)",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Streamladder",
+        "Eklipse",
+        "Powder.gg",
+        "Athenascope"
+      ],
+      "cited_urls": [
+        "https://streamladder.com/blog/best-twitch-clipping-software"
+      ],
+      "response_summary": "Perplexity generated an answer citing https://streamladder.com/blog/best-twitch-clipping-software. Recommended Streamladder, Eklipse, Powder.gg, Athenascope."
+    },
+    "claude_or_copilot": {
+      "engine": "Claude 3.5 Sonnet / MS Copilot",
+      "incubrix_status": "Not mentioned",
+      "competitors_mentioned": [
+        "Streamladder",
+        "Eklipse",
+        "Powder.gg",
+        "Athenascope"
+      ],
+      "response_summary": "Claude detailed technical trade-offs and best practices, evaluating tools such as Streamladder, Eklipse, Powder.gg, Athenascope."
+    }
+  },
+  "sha256_hash": "9168c707c1e965e21dc71c57a13978dac8f1591e0ce96891c00fdb6aee27f559"
+}
