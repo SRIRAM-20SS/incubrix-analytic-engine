@@ -1,6 +1,6 @@
 {
   "report_id": "REP-2026-10-24",
-  "generated_at": "2026-10-25T03:05:13.444058+00:00",
+  "generated_at": "2026-10-25T12:36:12.289040+00:00",
   "reporting_period": {
     "start_date": "2026-10-21",
     "end_date": "2026-10-24",
@@ -18,7 +18,7 @@
       "Perplexity (Sonar)",
       "Claude 3.5 Sonnet"
     ],
-    "failed_checks": 1,
+    "failed_checks": 2,
     "data_integrity_score": "100.0% (Zero unverified entries)"
   },
   "baseline_visibility_metrics": {
