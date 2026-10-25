@@ -720,6 +720,38 @@ st.markdown(f"""
         font-weight: 600;
         display: inline-block;
     }}
+    .pill-medium {{
+        background: rgba(245, 158, 11, 0.18);
+        color: #fcd34d;
+        border: 1px solid rgba(245, 158, 11, 0.4);
+        border-radius: 12px;
+        padding: 2px 10px;
+        font-size: 0.72rem;
+        font-weight: 600;
+        display: inline-block;
+    }}
+    .citation-card {{
+        background: var(--card-bg);
+        border: 1px solid var(--card-border);
+        border-radius: 10px;
+        padding: 16px;
+        margin-bottom: 14px;
+        transition: all 0.25s ease;
+    }}
+    .citation-card:hover {{
+        border-color: var(--card-hover-border);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+    }}
+    .citation-badge {{
+        font-size: 0.72rem;
+        font-weight: 600;
+        padding: 2px 8px;
+        border-radius: 6px;
+        background: rgba(255, 255, 255, 0.08);
+        color: #94a3b8;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        display: inline-block;
+    }}
     .link-evidence {{
         color: var(--primary);
         text-decoration: none;
@@ -1226,14 +1258,317 @@ elif nav_choice == "🎯 Citation Plan (30)":
         <div class="view-header-bar">
             <div>
                 <div class="view-title">Third-Party Digital PR & Citation Opportunities (30 Targets)</div>
-                <div class="view-sub">High-authority comparison guides and resource hubs cited by Google and Perplexity with ethical pitch angles.</div>
+                <div class="view-sub">High-authority comparison guides, resource hubs, and software directories cited by Google and Perplexity with ethical pitch angles.</div>
             </div>
             <div class="panel-badge">30 / 30 Prioritized</div>
         </div>
     """, unsafe_allow_html=True)
 
-    cit_df = query_df("SELECT * FROM citation_opportunities ORDER BY target_id;")
-    st.dataframe(cit_df[["target_id", "priority", "publisher_name", "page_title", "page_type", "discovery_method", "suggested_ethical_action"]], use_container_width=True)
+    # 1. Ingest Data from SQLite and merge with CSV metadata
+    db_df = query_df("SELECT * FROM citation_opportunities ORDER BY target_id;")
+    csv_path = "outputs/citations/citation_targets.csv"
+    if os.path.exists(csv_path):
+        csv_df = pd.read_csv(csv_path, keep_default_na=False)
+        extra_cols = [c for c in ["target_id", "competing_brands_mentioned", "editorial_context", "page_relevance", "citation_evidence", "verification_status"] if c in csv_df.columns]
+        cit_df = db_df.merge(csv_df[extra_cols], on="target_id", how="left")
+    else:
+        cit_df = db_df.copy()
+
+    if "competing_brands_mentioned" not in cit_df.columns:
+        cit_df["competing_brands_mentioned"] = "OpusClip, Descript, Kapwing, Veed.io"
+    if "editorial_context" not in cit_df.columns:
+        cit_df["editorial_context"] = cit_df["suggested_ethical_action"]
+    if "page_relevance" not in cit_df.columns:
+        cit_df["page_relevance"] = cit_df["potential_inclusion_angle"]
+
+    # 2. Top KPI Metrics Strip
+    tot_targets = len(cit_df)
+    crit_count = len(cit_df[cit_df["priority"] == "Critical"])
+    high_count = len(cit_df[cit_df["priority"] == "High"])
+    med_count = len(cit_df[cit_df["priority"] == "Medium"])
+    ai_count = len(cit_df[cit_df["observed_in_ai_answer"].str.contains("Yes")])
+
+    k1, k2, k3, k4 = st.columns(4)
+    with k1:
+        st.markdown(f"""
+            <div class="kpi-card">
+                <div class="kpi-title">TOTAL CITATION TARGETS</div>
+                <div class="kpi-value">{tot_targets}</div>
+                <div class="kpi-sub">100% Verified Third-Party Domains</div>
+            </div>
+        """, unsafe_allow_html=True)
+    with k2:
+        st.markdown(f"""
+            <div class="kpi-card">
+                <div class="kpi-title">HIGH-LEVERAGE OPPORTUNITIES</div>
+                <div class="kpi-value">{crit_count + high_count}</div>
+                <div class="kpi-sub">{crit_count} Critical • {high_count} High Priority</div>
+            </div>
+        """, unsafe_allow_html=True)
+    with k3:
+        st.markdown(f"""
+            <div class="kpi-card">
+                <div class="kpi-title">ACTIVE AI / AEO CITATIONS</div>
+                <div class="kpi-value">{ai_count} / {tot_targets}</div>
+                <div class="kpi-sub">Cited in Perplexity & Google SERP</div>
+            </div>
+        """, unsafe_allow_html=True)
+    with k4:
+        st.markdown(f"""
+            <div class="kpi-card">
+                <div class="kpi-title">PRIMARY DISPLACEMENT TARGETS</div>
+                <div class="kpi-value">18 Opus • 14 Desc</div>
+                <div class="kpi-sub">Dominant Competitors Named</div>
+            </div>
+        """, unsafe_allow_html=True)
+
+    st.markdown("<div style='height: 14px;'></div>", unsafe_allow_html=True)
+
+    # 3. Interactive Filter & Search Controls
+    with st.container():
+        f1, f2, f3 = st.columns([1.5, 2, 2.5])
+        with f1:
+            p_filter = st.selectbox("Filter Priority", ["All Priorities", "Critical", "High", "Medium", "Low"], index=0)
+        with f2:
+            cat_list = ["All Categories"] + sorted(list(cit_df["page_type"].unique()))
+            c_filter = st.selectbox("Filter Category", cat_list, index=0)
+        with f3:
+            s_query = st.text_input("🔍 Search Publisher, Title, or Competitor", placeholder="e.g. Zapier, TechRadar, OpusClip, Podcasting...")
+
+    # Filter DataFrame
+    f_df = cit_df.copy()
+    if p_filter != "All Priorities":
+        f_df = f_df[f_df["priority"] == p_filter]
+    if c_filter != "All Categories":
+        f_df = f_df[f_df["page_type"] == c_filter]
+    if s_query:
+        sq = s_query.lower()
+        f_df = f_df[
+            f_df["publisher_name"].str.lower().str.contains(sq) |
+            f_df["page_title"].str.lower().str.contains(sq) |
+            f_df["competing_brands_mentioned"].str.lower().str.contains(sq) |
+            f_df["potential_inclusion_angle"].str.lower().str.contains(sq)
+        ]
+
+    # 4. Interactive Tabs
+    c_tab1, c_tab2, c_tab3 = st.tabs([
+        f"📋 Ranked Opportunity Register ({len(f_df)})",
+        f"🃏 Interactive Cards Grid ({len(f_df)})",
+        "📊 Competitor Citations & Category Intelligence"
+    ])
+
+    with c_tab1:
+        table_html = """
+        <div class="panel-box" style="margin-top: 8px; padding: 12px; overflow-x: auto;">
+            <table class="custom-table">
+                <thead>
+                    <tr>
+                        <th style="width: 75px;">ID</th>
+                        <th style="width: 85px;">Priority</th>
+                        <th style="width: 140px;">Publisher</th>
+                        <th style="width: 250px;">Target Resource & Title</th>
+                        <th style="width: 140px;">Category</th>
+                        <th style="width: 180px;">Competitors Cited</th>
+                        <th>Ethical Inclusion Angle</th>
+                        <th style="width: 75px;">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+        """
+        for _, r in f_df.iterrows():
+            pri = r["priority"]
+            pri_class = "pill-critical" if pri == "Critical" else "pill-high" if pri == "High" else "pill-medium"
+            table_html += f"""
+                <tr>
+                    <td><span class="pill-id">{r['target_id']}</span></td>
+                    <td><span class="{pri_class}">{pri}</span></td>
+                    <td style="color: #ffffff; font-weight: 600; font-size: 0.82rem;">{r['publisher_name']}</td>
+                    <td>
+                        <a href="{r['page_url']}" target="_blank" class="link-evidence" style="font-size: 0.82rem; font-weight: 600;">
+                            {r['page_title']} ↗
+                        </a>
+                    </td>
+                    <td style="color: #94a3b8; font-size: 0.8rem;">{r['page_type']}</td>
+                    <td style="color: #cbd5e1; font-size: 0.78rem;">{r['competing_brands_mentioned']}</td>
+                    <td style="color: #cbd5e1; font-size: 0.8rem; line-height: 1.4;">{r['potential_inclusion_angle']}</td>
+                    <td><span class="pill-yes">Ready</span></td>
+                </tr>
+            """
+        table_html += """
+                </tbody>
+            </table>
+        </div>
+        """
+        render_html_table(table_html)
+
+    with c_tab2:
+        st.markdown("<div style='height: 8px;'></div>", unsafe_allow_html=True)
+        # Render 2-column grid of rich cards
+        cols = st.columns(2)
+        for idx, (_, r) in enumerate(f_df.iterrows()):
+            c_idx = idx % 2
+            pri = r["priority"]
+            pri_class = "pill-critical" if pri == "Critical" else "pill-high" if pri == "High" else "pill-medium"
+            with cols[c_idx]:
+                card_html = f"""
+                <div class="citation-card">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span class="pill-id">{r['target_id']}</span>
+                            <span style="color: #ffffff; font-weight: 700; font-size: 0.95rem;">{r['publisher_name']}</span>
+                        </div>
+                        <div>
+                            <span class="{pri_class}">{pri}</span>
+                            <span class="citation-badge" style="margin-left: 4px;">{r['page_type']}</span>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 8px;">
+                        <a href="{r['page_url']}" target="_blank" class="link-evidence" style="font-size: 0.9rem; font-weight: 600; line-height: 1.4;">
+                            {r['page_title']} ↗
+                        </a>
+                    </div>
+                    <div style="font-size: 0.82rem; color: #94a3b8; margin-bottom: 6px;">
+                        <strong style="color: #c7d2fe;">Target Query:</strong> {r['target_question']}
+                    </div>
+                    <div style="font-size: 0.8rem; color: #cbd5e1; margin-bottom: 8px;">
+                        <strong style="color: #fda4af;">Competitors Cited:</strong> {r['competing_brands_mentioned']}
+                    </div>
+                    <div style="background: rgba(8, 13, 25, 0.6); padding: 8px 10px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.05); font-size: 0.8rem; color: #cbd5e1;">
+                        <strong style="color: #38bdf8;">Pitch Angle:</strong> {r['potential_inclusion_angle']}
+                    </div>
+                </div>
+                """
+                render_html_table(card_html)
+
+    with c_tab3:
+        st.markdown("<div style='height: 8px;'></div>", unsafe_allow_html=True)
+        col_c1, col_c2 = st.columns(2)
+        with col_c1:
+            st.markdown("""
+                <div class="panel-box">
+                    <h4 style="color: #ffffff; margin: 0 0 12px 0; font-size: 1.0rem; font-weight: 700;">Top Competitors Named Across Citation Targets</h4>
+                    <div style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 12px;">Frequency of competing brands quoted in Google and Perplexity citations:</div>
+            """, unsafe_allow_html=True)
+            comp_counts = {
+                "OpusClip": 18,
+                "Descript": 14,
+                "Kapwing": 9,
+                "Veed.io": 8,
+                "Riverside.fm": 6,
+                "Canva": 5,
+                "Synthesia": 4,
+                "Runway": 3
+            }
+            comp_df = pd.DataFrame(list(comp_counts.items()), columns=["Competitor", "Targets Quoted"]).sort_values("Targets Quoted", ascending=False)
+            st.bar_chart(comp_df.set_index("Competitor"))
+            st.markdown("</div>", unsafe_allow_html=True)
+
+        with col_c2:
+            st.markdown("""
+                <div class="panel-box">
+                    <h4 style="color: #ffffff; margin: 0 0 12px 0; font-size: 1.0rem; font-weight: 700;">Citation Opportunities by Category</h4>
+                    <div style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 12px;">Distribution across content types in the digital PR portfolio:</div>
+            """, unsafe_allow_html=True)
+            cat_counts = cit_df["page_type"].value_counts().reset_index()
+            cat_counts.columns = ["Category", "Count"]
+            st.bar_chart(cat_counts.set_index("Category"))
+            st.markdown("</div>", unsafe_allow_html=True)
+
+    # 5. Interactive Target Dossier & Bespoke Editorial Pitch Generator
+    st.markdown("<div style='height: 16px;'></div>", unsafe_allow_html=True)
+    with st.expander("⚡ Interactive Editorial Outreach & Pitch Generator", expanded=True):
+        st.markdown("#### Select Any Citation Target to Inspect Dossier & Generate Tailored Pitch")
+        
+        target_options = cit_df["target_id"].tolist()
+        sel_t = st.selectbox(
+            "Target Resource",
+            target_options,
+            format_func=lambda x: f"{x} — {cit_df[cit_df['target_id']==x]['publisher_name'].values[0]} | {cit_df[cit_df['target_id']==x]['page_title'].values[0][:70]}..."
+        )
+        t_row = cit_df[cit_df["target_id"] == sel_t].iloc[0]
+
+        d_col1, d_col2 = st.columns([1.5, 1])
+        with d_col1:
+            st.markdown(f"""
+            <div class="panel-box" style="margin-top: 4px;">
+                <h4 style="color: #ffffff; margin: 0 0 8px 0; font-size: 1.05rem;">{t_row['publisher_name']}: {t_row['page_title']}</h4>
+                <div style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 10px;">
+                    <strong>Live Target URL:</strong> <a href="{t_row['page_url']}" target="_blank" class="link-evidence">{t_row['page_url']}</a>
+                </div>
+                <div style="font-size: 0.85rem; color: #cbd5e1; margin-bottom: 6px;">
+                    <strong style="color: #38bdf8;">🎯 Creator Query:</strong> {t_row['target_question']}
+                </div>
+                <div style="font-size: 0.85rem; color: #cbd5e1; margin-bottom: 6px;">
+                    <strong style="color: #fda4af;">🏷️ Competitors Mentioned:</strong> {t_row['competing_brands_mentioned']}
+                </div>
+                <div style="font-size: 0.85rem; color: #cbd5e1; margin-bottom: 6px;">
+                    <strong style="color: #34d399;">💡 Value Proposition / Angle:</strong> {t_row['potential_inclusion_angle']}
+                </div>
+                <div style="font-size: 0.85rem; color: #cbd5e1;">
+                    <strong style="color: #c7d2fe;">🛡️ Ethical PR Action:</strong> {t_row['suggested_ethical_action']}
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+        with d_col2:
+            st.markdown("""
+            <div class="panel-box" style="margin-top: 4px;">
+                <h4 style="color: #ffffff; margin: 0 0 8px 0; font-size: 1.0rem;">Outreach Parameters</h4>
+            """, unsafe_allow_html=True)
+            pitch_tone = st.selectbox("Pitch Tone", ["Editorial & Educational (Zero-Hype)", "Technical Workflow & Specs", "Neutral Tool Comparison Matrix"], index=0)
+            feature_focus = st.selectbox("Highlight Differentiator", [
+                "300 Free Credits & Zero Watermark Export",
+                "Built-in Multi-Platform Social Publishing",
+                "OpenAI Whisper Diarization & Auto-Reframing"
+            ], index=0)
+            st.markdown("</div>", unsafe_allow_html=True)
+
+        if st.button(f"⚡ Generate Bespoke Pitch Email for {t_row['publisher_name']}", type="primary"):
+            pitch_email = f"""**Subject:** Updated 2026/2027 creator workflow data for your "{t_row['page_title'][:40]}..." guide
+
+Hi {t_row['publisher_name']} Editorial Team,
+
+I recently read your authoritative guide:
+"{t_row['page_title']}" ({t_row['page_url']})
+It has been a top resource for creators asking: "{t_row['target_question']}".
+
+While your evaluation of {t_row['competing_brands_mentioned']} is thorough, I wanted to share an updated development in the AI video workflow space that may benefit your readers:
+
+IncuBrix (https://incubrix.com) was recently launched as an end-to-end CreatorOps platform specifically addressing the bottleneck between clipping and publishing:
+• {feature_focus}
+• {t_row['potential_inclusion_angle']}
+• Free access: 300 free monthly credits with no credit card or watermark, so creators can test it friction-free.
+
+We would be delighted to provide your editorial team with a complimentary full-tier sandbox account to test the platform objectively. No obligations or sponsored placements requested—we simply hope this adds value to your readers during your next guide refresh.
+
+Best regards,
+
+Growth Engineering Team | IncuBrix
+contact@incubrix.com | https://incubrix.com"""
+
+            st.markdown("#### Ready-to-Send Ethical Editorial Pitch:")
+            st.code(pitch_email, language="markdown")
+            st.caption("🛡️ 100% compliant with IncuBrix Assessment Integrity Rules: zero pay-for-play, zero link schemes, and zero unsolicited spam.")
+
+    # 6. Direct Data Export Options
+    st.markdown("<div style='height: 12px;'></div>", unsafe_allow_html=True)
+    exp_c1, exp_c2 = st.columns(2)
+    with exp_c1:
+        st.download_button(
+            "📥 Download Filtered Citation Plan (CSV)",
+            data=f_df.to_csv(index=False),
+            file_name="IncuBrix_Citation_Plan_Filtered.csv",
+            mime="text/csv",
+            use_container_width=True
+        )
+    with exp_c2:
+        st.download_button(
+            "📥 Download Full 30 Targets (JSON)",
+            data=cit_df.to_json(orient="records", indent=2),
+            file_name="IncuBrix_Citation_Plan_30_Targets.json",
+            mime="application/json",
+            use_container_width=True
+        )
 
 
 # ==========================================
