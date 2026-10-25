@@ -17,16 +17,56 @@ Unified SQLite database manager implementing all 13 required persistence tables:
 """
 
 import os
+import shutil
 import sqlite3
+import tempfile
 from typing import List, Dict, Any, Optional
 import pandas as pd
+
+
+def resolve_writable_db_path(default_path: str = "data/visibility.db") -> str:
+    """
+    Returns a writable database path.
+    If default_path or its directory is read-only (such as on Streamlit Community Cloud mounts),
+    transparently copies default_path to a writable location in tempdir so all reads and writes
+    succeed seamlessly without sqlite3.OperationalError.
+    """
+    if default_path == ":memory:":
+        return default_path
+
+    dir_name = os.path.dirname(os.path.abspath(default_path))
+    can_write = True
+    if not os.path.exists(dir_name) or not os.access(dir_name, os.W_OK):
+        can_write = False
+    elif os.path.exists(default_path) and not os.access(default_path, os.W_OK):
+        can_write = False
+    else:
+        try:
+            test_conn = sqlite3.connect(default_path)
+            test_conn.execute("CREATE TABLE IF NOT EXISTS _write_test (id INTEGER);")
+            test_conn.execute("DROP TABLE IF EXISTS _write_test;")
+            test_conn.close()
+        except Exception:
+            can_write = False
+
+    if can_write:
+        return default_path
+
+    tmp_db_path = os.path.join(tempfile.gettempdir(), "incubrix_visibility.db")
+    if os.path.exists(default_path) and not os.path.exists(tmp_db_path):
+        try:
+            shutil.copy2(default_path, tmp_db_path)
+            os.chmod(tmp_db_path, 0o666)
+        except Exception:
+            pass
+    return tmp_db_path
 
 
 class EngineDatabase:
     """Manages the master unified SQLite database for the IncuBrix Visibility Engine."""
 
     def __init__(self, db_path: str = "data/visibility.db"):
-        self.db_path = db_path
+        self.db_path = resolve_writable_db_path(db_path)
         if self.db_path != ":memory:" and os.path.dirname(self.db_path):
             os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
         self.conn = sqlite3.connect(self.db_path, check_same_thread=False)

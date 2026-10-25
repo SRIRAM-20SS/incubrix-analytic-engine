@@ -12,8 +12,10 @@ import pandas as pd
 
 class VisibilityDatabase:
     def __init__(self, db_path: str = "data/visibility.db"):
-        self.db_path = db_path
-        os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
+        from src.engine.database import resolve_writable_db_path
+        self.db_path = resolve_writable_db_path(db_path)
+        if self.db_path != ":memory:" and os.path.dirname(self.db_path):
+            os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
         self.conn = sqlite3.connect(self.db_path, check_same_thread=False)
         self.conn.row_factory = sqlite3.Row
         self.init_schema()

@@ -14,11 +14,13 @@ import sqlite3
 import pandas as pd
 import streamlit as st
 
-from src.engine.database import EngineDatabase
+from src.engine.database import EngineDatabase, resolve_writable_db_path
 from src.engine.metrics import EngineMetrics
 from src.engine.weekly_reporter import WeeklyReporter
 from src.engine.brief_generator import ContentBriefGenerator
 from src.engine.scheduler import RefreshWorkflow
+
+ACTIVE_DB_PATH = resolve_writable_db_path("data/visibility.db")
 
 
 # 1. Page Configuration (Vertical Sidebar Expanded by default)
@@ -33,7 +35,7 @@ st.set_page_config(
 # 2. Database Connection Helper
 def query_df(sql: str, params: tuple = ()) -> pd.DataFrame:
     """Thread-safe SQL reader returning a pandas DataFrame."""
-    with sqlite3.connect("data/visibility.db") as conn:
+    with sqlite3.connect(ACTIVE_DB_PATH) as conn:
         return pd.read_sql_query(sql, conn, params=params)
 
 
@@ -45,7 +47,7 @@ def render_html_table(html_content: str):
 
 @st.cache_resource
 def get_db():
-    return EngineDatabase()
+    return EngineDatabase(ACTIVE_DB_PATH)
 
 
 db = get_db()
